@@ -1,186 +1,165 @@
 # C Challenges Solved 💻
 
-A comprehensive collection of C programming challenges from various platforms and sources. This repository serves as a living documentation of my coding journey, problem-solving approaches, and continuous improvement in software development.
+Welcome to my programming journey! This repository is a comprehensive collection of C programming challenges and exercises that I've solved. It serves as both a learning resource and a portfolio showcasing my problem-solving skills and coding proficiency.
 
-## 🎯 About
+## 🎯 About This Repository
 
-This repository is a central hub for all programming challenges I've tackled in C. Each solution is crafted with attention to detail, emphasizing clean code, efficiency, and best practices. The challenges range from fundamental concepts to advanced algorithms, providing a complete learning experience.
+This repository documents my continuous learning and practice in C programming. Each challenge is carefully solved with attention to code quality, efficiency, and best practices. Whether you're a fellow learner or an experienced developer, I hope you find these solutions helpful and educational.
 
 ## 📂 Repository Structure
 
 ```
 c-challenges-solved/
 │
-├── 42-piscine-practice/     # Collection 1
-├── [future-collection]/     # More collections coming
-└── README.md                # Main documentation
+├── 42-piscine-practice/     # 42 School Piscine exercises
+│   ├── level_0/             # Basic fundamentals ✅
+│   ├── level_1/             # 🔄 In progress
+│   └── level_3/             # ⏳ Planned
+│
+└── README.md                # You are here!
 ```
 
-## 📊 Statistics Overview
-
-<div align="center">
+## 📊 Overall Progress
 
 | Metric | Count |
 |--------|-------|
-| **Total Collections** | 1+ |
-| **Total Challenges** | 14+ |
-| **Lines of Code** | 500+ |
+| **Collections** | 1 |
+| **Challenges Solved** | 11 |
 | **Success Rate** | 100% |
 
-</div>
+## 🏆 Achievements
 
-## 🗂️ Challenge Collections
+- ✅ Completed Level 0 (11/11 exercises)
+- ✅ Mastered basic I/O operations with `write()`
+- ✅ Proficient in string manipulation and character processing
+- 🔄 Ready to tackle Level 1 challenges
+- 🎯 Target: Complete all Piscine levels
 
-### Collection: 42 Piscine Practice
-A structured series of programming exercises focusing on C fundamentals and problem-solving skills.
+## 🛠️ Technologies & Tools
 
-📁 **Path:** `42-piscine-practice/`  
-📖 **Details:** [View Collection README](42-piscine-practice/README.md)
-
----
-
-*More challenge collections will be added as I expand my practice across different platforms and sources.*
-
-## 🛠️ Technologies & Standards
-
-- **Language:** C (C99/C11)
-- **Compiler:** GCC with strict warnings
-- **Development:** Linux/Unix environment
+- **Language:** C
+- **Compiler:** GCC with strict flags (`-Wall -Wextra -Werror`)
+- **Coding Standard:** Norminette (42 Style Guide)
 - **Version Control:** Git & GitHub
-- **Code Quality:** Clean, documented, and optimized
+- **Development Environment:** Linux/Unix
 
-## 💡 Core Competencies
+## 💡 What I'm Learning
 
-### Technical Skills
-- Algorithm design and optimization
-- Data structures implementation
+### Core Concepts
 - Memory management and pointers
-- String processing and manipulation
-- Recursion and iterative solutions
-- Bit manipulation
+- String manipulation and algorithms
+- Data structures (arrays, linked lists)
+- File I/O operations
+- Recursion and dynamic programming
 
-### Development Practices
-- Problem decomposition
-- Code refactoring
-- Debugging techniques
-- Performance optimization
-- Documentation
-- Testing methodologies
+### Skills Developed
+- Problem-solving and algorithmic thinking
+- Code optimization and efficiency
+- Clean code practices
+- Debugging and testing
+- Documentation and readability
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-### Prerequisites
-```bash
-# GCC Compiler
-gcc --version
-
-# Git
-git --version
-```
-
-### Clone Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/said-boutayeb/c-challenges-solved.git
 cd c-challenges-solved
 ```
 
-### Explore Collections
+### Navigate to Specific Challenge
 ```bash
-# Browse available collections
-ls -la
-
-# Navigate to specific collection
-cd [collection-name]
-
-# Read collection-specific documentation
-cat README.md
+cd 42-piscine-practice/level_0
 ```
 
-### Compile & Run
+### Compile and Run
 ```bash
-# Standard compilation
-gcc -Wall -Wextra -Werror source.c -o program
-
-# Execute
-./program [arguments]
+gcc -Wall -Wextra -Werror exercise_name.c -o exercise_name
+./exercise_name [arguments]
 ```
 
-## 📈 Learning Journey
+### Example
+```bash
+cd 42-piscine-practice/level_0
+gcc -Wall -Wextra -Werror hello.c -o hello
+./hello
+# Output: Hello World!
+```
+
+## 📚 Challenge Collections
+
+### 42 Piscine Practice
+A series of progressively challenging exercises from the renowned 42 School curriculum. These exercises cover everything from basic output to complex algorithms.
+
+**Level 0 - Fundamentals** ✅  
+Complete! Master basic I/O, character manipulation, and command-line arguments.  
+📁 **Path:** `42-piscine-practice/level_0/`  
+📖 **Details:** [View Collection README](42-piscine-practice/README.md)
+
+**Level 1 - Core Concepts** 🔄  
+In progress! String functions, basic algorithms, and more complex logic.
+
+**Level 3 - Advanced Topics** ⏳  
+Planned for future! Complex algorithms and data structures.
+
+*More categories and challenges coming soon!*
+
+## 📈 Learning Path
 
 ```
-Foundation Building → Skill Enhancement → Mastery
-        ↓                    ↓                ↓
-   Basic Concepts      Algorithms        Advanced Topics
-        ✅                  🔄                 ⏳
+Beginner → Intermediate → Advanced
+   ↓           ↓              ↓
+Level 0    Level 1        Level 3
+  ✅          🔄             ⏳
 ```
 
-## 🎓 Learning Resources
+## 🎓 Resources & References
 
-### Documentation
-- [C Reference](https://en.cppreference.com/w/c)
-- [GNU C Library](https://www.gnu.org/software/libc/manual/)
+- [42 School](https://www.42.fr/)
+- [The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+- [C Documentation](https://en.cppreference.com/w/c)
 - [Linux Man Pages](https://man7.org/linux/man-pages/)
 
-### Books & Guides
-- The C Programming Language (K&R)
-- C Programming: A Modern Approach
-- Expert C Programming
+## 🤝 Contributing & Feedback
 
-### Online Platforms
-- Practice platforms and coding challenge sites
-- Algorithm visualization tools
-- Developer communities
+While this is primarily a personal learning repository, I welcome:
 
-## 🤝 Community & Contribution
+- 🐛 Bug reports and issue submissions
+- 💡 Suggestions for code improvements
+- 📖 Questions about specific solutions
+- 🌟 Stars if you find this helpful!
 
-### How to Use This Repository
-- 📖 **Learn:** Study solutions and approaches
-- 🔍 **Compare:** See different problem-solving methods
-- 💬 **Discuss:** Open issues for questions
-- ⭐ **Support:** Star if you find it helpful
+Feel free to open an issue or reach out if you have any questions or suggestions.
 
-### Feedback Welcome
-- Bug reports and corrections
-- Alternative solution suggestions
-- Code optimization ideas
-- General feedback and questions
+## 📜 Code Standards
 
-## 📝 Code Philosophy
+All code in this repository follows:
+- **42 Norminette** coding standards
+- **Strict compilation** with `-Wall -Wextra -Werror`
+- **Clear documentation** and comments where necessary
+- **Efficient algorithms** and optimized solutions
 
-Every solution in this repository adheres to:
-
-- **Clarity:** Easy to read and understand
-- **Efficiency:** Optimized for performance
-- **Correctness:** Thoroughly tested
-- **Maintainability:** Well-structured and documented
-- **Standards:** Following best practices
-
-## 🏆 Goals & Milestones
-
-- ✅ Build strong C programming foundation
-- ✅ Solve 10+ challenges
-- 🔄 Reach 50 solved challenges
-- 🔄 Cover all major algorithm categories
-- ⏳ Contribute to open-source projects
-- ⏳ Explore advanced C topics
-
-## 📫 Connect
+## 📫 Connect With Me
 
 - **GitHub:** [@said-boutayeb](https://github.com/said-boutayeb)
 - **Location:** El Jadida, Morocco 🇲🇦
 
-## 📜 License
+## 📝 License
 
-Individual collections may have their own licenses. Please refer to collection-specific documentation for details.
+This project follows the [42 Unlicense](https://github.com/gcamerli/42unlicense) terms.
+
+## ⭐ Support
+
+If you find this repository helpful, please consider giving it a star! It helps me stay motivated and helps others discover these resources.
 
 ---
 
 <div align="center">
 
-**"Programs must be written for people to read, and only incidentally for machines to execute."**  
-*- Harold Abelson*
+**"The only way to learn a new programming language is by writing programs in it."**  
+*- Dennis Ritchie*
 
-### ⭐ If you find this repository helpful, consider giving it a star!
+Made with ❤️ and lots of ☕ by Said Boutayeb
 
 *Last Updated: September 2025*
 
