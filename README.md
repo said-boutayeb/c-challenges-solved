@@ -24,7 +24,9 @@ c-challenges-solved/
 | Metric | Count |
 |--------|-------|
 | **Collections** | 1 |
-| **Challenges Solved** | 11 |
+| **Challenges Solved** | 20 |
+| **Level 0 Completed** | 11/11 ✅ |
+| **Level 1 In Progress** | 9 🔄 |
 | **Success Rate** | 100% |
 
 ## 🏆 Achievements

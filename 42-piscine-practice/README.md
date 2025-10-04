@@ -25,15 +25,21 @@ The 42 Piscine is an intensive programming bootcamp that teaches C programming f
 ---
 
 ### Level 1 - Core Concepts 🔄
-**Status:** In Progress  
+**Status:** In Progress (9 exercises)  
 **Focus:** String functions, basic algorithms, advanced logic
 
 📁 **Path:** `level_1/`
 
-**Working On:**
-- String manipulation exercises
-- Function implementations
-- Algorithm challenges
+**Exercises:**
+- `first_word.c` - Extract and display first word from string
+- `fizzbuzz.c` - Classic FizzBuzz algorithm
+- `ft_putstr.c` - Implement string output function
+- `ft_strcpy.c` - Implement string copy function
+- `ft_strlen.c` - Implement string length function
+- `ft_swap.c` - Swap two integer values
+- `md_1_repeat_alpha.c` - Repeat alphabet characters (method 1)
+- `md_2_repeat_alpha.c` - Repeat alphabet characters (method 2)
+- `md_3_repeat_alpha.c` - Repeat alphabet characters (method 3)
 
 ---
 
