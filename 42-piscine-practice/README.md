@@ -28,7 +28,8 @@ The 42 Piscine is an intensive programming bootcamp that teaches C programming f
 **Status:** In Progress (9 exercises)  
 **Focus:** String functions, basic algorithms, advanced logic
 
-📁 **Path:** `level_1/`
+📁 **Path:** `level_1/`  
+📖 **Details:** [View Level 1 README](level_1/README.md)
 
 **Exercises:**
 - `first_word.c` - Extract and display first word from string
@@ -58,7 +59,9 @@ This level will focus on more advanced programming concepts and challenging algo
 | Metric | Value |
 |--------|-------|
 | **Levels Active** | 3 |
-| **Total Exercises Completed** | 11+ |
+| **Total Exercises Completed** | 20 |
+| **Level 0** | 11/11 ✅ |
+| **Level 1** | 9 🔄 |
 | **Success Rate** | 100% |
 | **Current Focus** | Level 1 |
 
@@ -154,8 +157,8 @@ Each level has its own detailed README containing:
 
 ## 🏆 Milestones
 
-- ✅ Level 0 completed - Strong foundation established
-- 🔄 Level 1 in progress - Building core skills
+- ✅ Level 0 completed (11/11) - Strong foundation established
+- 🔄 Level 1 in progress (9 exercises) - Building core skills
 - ⏳ Level 3 upcoming - Advanced challenges ahead
 
 ## 📝 Notes

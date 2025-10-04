@@ -34,7 +34,7 @@ c-challenges-solved/
 - ✅ Completed Level 0 (11/11 exercises)
 - ✅ Mastered basic I/O operations with `write()`
 - ✅ Proficient in string manipulation and character processing
-- 🔄 Ready to tackle Level 1 challenges
+- 🔄 Working on Level 1 (9 exercises in progress)
 - 🎯 Target: Complete all Piscine levels
 
 ## 🛠️ Technologies & Tools
@@ -94,12 +94,14 @@ gcc -Wall -Wextra -Werror hello.c -o hello
 A series of progressively challenging exercises from the renowned 42 School curriculum. These exercises cover everything from basic output to complex algorithms.
 
 **Level 0 - Fundamentals** ✅  
-Complete! Master basic I/O, character manipulation, and command-line arguments.  
+Complete! Mastered basic I/O, character manipulation, and command-line arguments.  
 📁 **Path:** `42-piscine-practice/level_0/`  
-📖 **Details:** [View Collection README](42-piscine-practice/README.md)
+📖 **Details:** [View Level 0 README](42-piscine-practice/level_0/README.md)
 
 **Level 1 - Core Concepts** 🔄  
-In progress! String functions, basic algorithms, and more complex logic.
+In progress! Building skills in string functions, basic algorithms, and function implementation.  
+📁 **Path:** `42-piscine-practice/level_1/`  
+📖 **Details:** [View Level 1 README](42-piscine-practice/level_1/README.md)
 
 **Level 3 - Advanced Topics** ⏳  
 Planned for future! Complex algorithms and data structures.
