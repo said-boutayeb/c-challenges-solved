@@ -58,7 +58,7 @@ This level will focus on more advanced programming concepts and challenging algo
 
 | Metric | Value |
 |--------|-------|
-| **Levels Active** | 3 |
+| **Levels Active** | 2 |
 | **Total Exercises Completed** | 20 |
 | **Level 0** | 11/11 ✅ |
 | **Level 1** | 9 🔄 |
