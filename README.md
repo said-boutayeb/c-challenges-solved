@@ -85,21 +85,19 @@ c-challenges-solved/
 
 ### 🗺️ Learning Roadmap
 
-</div>
+```mermaid
+graph LR
+    A[🌱 Beginner] -->|Level 0| B[✅ Completed]
+    B -->|Level 1| C[🔄 In Progress]
+    C -->|Level 3| D[⏳ Advanced]
+    
+    style A fill:#e1f5ff
+    style B fill:#c8e6c9
+    style C fill:#fff9c4
+    style D fill:#f8bbd0
+```
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   🌱 Beginner     →     ✅ Completed     →     🔄 Active       │
-│   (Level 0)             (11/11)              (Level 1)         │
-│                                                                 │
-│                              ↓                                  │
-│                                                                 │
-│                       ⏳ Advanced                               │
-│                       (Level 3)                                 │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+</div>
 
 ---
 
@@ -341,48 +339,40 @@ gcc -Wall -Wextra -Werror hello.c -o hello
 
 ### 💬 How Can You Help?
 
+</div>
+
 <table>
 <tr>
 <td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/bug.png" width="50"/>
 <br/>
-🐛
-<br/><br/>
-<b>Report Bugs</b>
-<br/><br/>
+<b>🐛 Report Bugs</b>
+<br/>
 <sub>Found an issue?</sub>
-<br/><br/>
 </td>
 <td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/idea.png" width="50"/>
 <br/>
-💡
-<br/><br/>
-<b>Suggest Ideas</b>
-<br/><br/>
+<b>💡 Suggest Ideas</b>
+<br/>
 <sub>Have improvements?</sub>
-<br/><br/>
 </td>
 <td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/ask-question.png" width="50"/>
 <br/>
-❓
-<br/><br/>
-<b>Ask Questions</b>
-<br/><br/>
+<b>❓ Ask Questions</b>
+<br/>
 <sub>Need clarification?</sub>
-<br/><br/>
 </td>
 <td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/star.png" width="50"/>
 <br/>
-⭐
-<br/><br/>
-<b>Star Repo</b>
-<br/><br/>
+<b>⭐ Star Repo</b>
+<br/>
 <sub>Show support!</sub>
-<br/><br/>
 </td>
 </tr>
 </table>
-
-</div>
 
 <div align="center">
 
