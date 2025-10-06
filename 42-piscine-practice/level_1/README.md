@@ -5,9 +5,9 @@ Welcome to Level 1! This collection builds upon the fundamentals from Level 0 an
 ## 📋 Overview
 
 **Difficulty:** Intermediate  
-**Total Exercises:** 9  
-**Completion:** 9 🔄  
-**Focus Areas:** String functions, algorithms, function implementation
+**Total Exercises:** 17  
+**Completion:** 17 🔄  
+**Focus Areas:** String functions, algorithms, cipher implementations
 
 ## 📚 Exercise List
 
@@ -22,6 +22,14 @@ Welcome to Level 1! This collection builds upon the fundamentals from Level 0 an
 | 7 | `md_1_repeat_alpha.c` | Repeat alphabet characters (Method 1) | Character repetition, ASCII | 🔄 |
 | 8 | `md_2_repeat_alpha.c` | Repeat alphabet characters (Method 2) | Alternative approach, optimization | 🔄 |
 | 9 | `md_3_repeat_alpha.c` | Repeat alphabet characters (Method 3) | Third implementation method | 🔄 |
+| 10 | `md_1_rev_print.c` | Reverse print string (Method 1) | String reversal, iteration | 🔄 |
+| 11 | `md_2_rev_print.c` | Reverse print string (Method 2) | Alternative reversal approach | 🔄 |
+| 12 | `md_3_rev_print.c` | Reverse print string (Method 3) | Third reversal method | 🔄 |
+| 13 | `md_1_rot_13.c` | ROT13 cipher implementation (Method 1) | Character rotation, cipher | 🔄 |
+| 14 | `md_2_rot_13.c` | ROT13 cipher implementation (Method 2) | Alternative ROT13 approach | 🔄 |
+| 15 | `md_1_rotone.c` | ROT1 cipher - rotate by 1 (Method 1) | Character shifting | 🔄 |
+| 16 | `md_2_rotone.c` | ROT1 cipher - rotate by 1 (Method 2) | Alternative ROT1 method | 🔄 |
+| 17 | `md_3_rotone.c` | ROT1 cipher - rotate by 1 (Method 3) | Third ROT1 implementation | 🔄 |
 
 ## 🎯 Learning Objectives
 
@@ -31,14 +39,16 @@ By completing Level 1, you will master:
 - **String Manipulation**: Advanced string parsing and processing
 - **Function Implementation**: Recreating standard library functions
 - **Pointers**: Understanding and using pointers effectively
-- **Algorithm Design**: Implementing classic algorithms like FizzBuzz
+- **Cipher Algorithms**: ROT13 and ROT1 encryption techniques
 - **Memory Operations**: Working with pointers and memory addresses
+- **Multiple Solutions**: Different approaches to solve the same problem
 
 ### Programming Skills
 - Implementing custom string functions
 - Working with pointer-based parameters
 - Parsing and tokenizing strings
 - Writing multiple solutions to the same problem
+- Understanding Caesar cipher variations
 - Optimizing code for efficiency
 - Understanding pass-by-reference vs pass-by-value
 
@@ -49,179 +59,51 @@ By completing Level 1, you will master:
 gcc -Wall -Wextra -Werror exercise_name.c -o exercise_name
 ```
 
-### Individual Exercise Examples
+### Compilation Examples
 
-#### Example 1: first_word.c
+#### Basic Function Exercises
 ```bash
-gcc -Wall -Wextra -Werror first_word.c -o first_word
-./first_word "Hello World"
-# Output: Hello
-./first_word "   Multiple   spaces"
-# Output: Multiple
+# Compile any exercise
+gcc -Wall -Wextra -Werror exercise_name.c -o exercise_name
+
+# For exercises requiring a main function (ft_strlen, ft_swap, etc.)
+# Create a test main.c file and compile together:
+gcc -Wall -Wextra -Werror exercise_name.c test_main.c -o test
 ```
 
-#### Example 2: fizzbuzz.c
+#### Command-Line Argument Exercises
 ```bash
+# Exercises that take arguments (first_word, rot_13, rotone, etc.)
+gcc -Wall -Wextra -Werror first_word.c -o first_word
+./first_word "your test string here"
+```
+
+#### Standalone Program Exercises
+```bash
+# Exercises with their own main (fizzbuzz, rev_print, etc.)
 gcc -Wall -Wextra -Werror fizzbuzz.c -o fizzbuzz
 ./fizzbuzz
-# Output: 1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16...
 ```
 
-#### Example 3: ft_putstr.c
-```bash
-gcc -Wall -Wextra -Werror ft_putstr.c -o ft_putstr
-./ft_putstr
-# (Write test in main to call ft_putstr("Hello World"))
-# Output: Hello World
-```
+### Testing Tips
 
-#### Example 4: ft_strlen.c
-```bash
-gcc -Wall -Wextra -Werror ft_strlen.c -o ft_strlen
-./ft_strlen
-# (Write test in main to call ft_strlen("test") and print result)
-# Output: 4
-```
+**For function implementations** (ft_strlen, ft_strcpy, ft_putstr, ft_swap):
+- Create your own `main.c` to test the function
+- Test with different inputs: empty strings, long strings, NULL cases
+- Compare results with standard library functions
 
-#### Example 5: ft_swap.c
-```bash
-gcc -Wall -Wextra -Werror ft_swap.c -o ft_swap
-./ft_swap
-# (Write test in main: int a=5, b=10; ft_swap(&a, &b); print a and b)
-# Output: a=10, b=5
-```
+**For command-line programs** (first_word, rot_13, rotone, repeat_alpha):
+- Test with various argument combinations
+- Try edge cases: empty arguments, special characters, numbers
+- Test with no arguments to see error handling
 
-## 💡 Key Techniques Used
+**For algorithmic programs** (fizzbuzz, rev_print):
+- Run and verify output matches expected behavior
+- Check edge cases and boundary conditions
 
-### 1. String Length Implementation
-```c
-int ft_strlen(char *str)
-{
-    int i = 0;
-    while (str[i])
-        i++;
-    return (i);
-}
-```
+## 🔍 General Concepts
 
-### 2. String Copy Implementation
-```c
-char *ft_strcpy(char *dest, char *src)
-{
-    int i = 0;
-    while (src[i])
-    {
-        dest[i] = src[i];
-        i++;
-    }
-    dest[i] = '\0';
-    return (dest);
-}
-```
-
-### 3. String Output Implementation
-```c
-void ft_putstr(char *str)
-{
-    int i = 0;
-    while (str[i])
-    {
-        write(1, &str[i], 1);
-        i++;
-    }
-}
-```
-
-### 4. Swap Using Pointers
-```c
-void ft_swap(int *a, int *b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-```
-
-### 5. FizzBuzz Pattern
-```c
-int i = 1;
-while (i <= 100)
-{
-    if (i % 15 == 0)
-        write(1, "fizzbuzz", 8);
-    else if (i % 3 == 0)
-        write(1, "fizz", 4);
-    else if (i % 5 == 0)
-        write(1, "buzz", 4);
-    else
-        ft_putnbr(i);
-    write(1, "\n", 1);
-    i++;
-}
-```
-
-### 6. First Word Extraction
-```c
-// Skip leading spaces
-while (*str == ' ' || *str == '\t')
-    str++;
-    
-// Print until next space or end
-while (*str && *str != ' ' && *str != '\t')
-{
-    write(1, str, 1);
-    str++;
-}
-```
-
-## 🔍 Common Patterns
-
-### Pattern 1: String Function Template
-```c
-#include <unistd.h>
-
-// Return type depends on function
-type function_name(char *str)
-{
-    int i = 0;
-    
-    while (str[i])
-    {
-        // Process str[i]
-        i++;
-    }
-    
-    return (result);
-}
-```
-
-### Pattern 2: Pointer-Based Swap
-```c
-void ft_swap(int *a, int *b)
-{
-    int temp;
-    
-    temp = *a;
-    *a = *b;
-    *b = temp;
-}
-```
-
-### Pattern 3: Character Repetition
-```c
-// Repeat character based on position in alphabet
-int repeat_count;
-
-if (c >= 'a' && c <= 'z')
-    repeat_count = c - 'a' + 1;
-else if (c >= 'A' && c <= 'Z')
-    repeat_count = c - 'A' + 1;
-else
-    repeat_count = 1;
-
-while (repeat_count--)
-    write(1, &c, 1);
-```
+These exercises explore various programming concepts. Each implementation may vary based on the approach taken.
 
 ## 📊 Complexity Analysis
 
@@ -234,6 +116,9 @@ while (repeat_count--)
 | ft_strlen | O(n) | O(1) |
 | ft_swap | O(1) | O(1) |
 | repeat_alpha | O(n*m) | O(1) |
+| rev_print | O(n) | O(1) |
+| rot_13 | O(n) | O(1) |
+| rotone | O(n) | O(1) |
 
 *where n = length of string, m = average repetition count*
 
@@ -244,8 +129,9 @@ while (repeat_count--)
 - ✅ Proper null-termination handling
 - ✅ Edge case consideration (empty strings, NULL pointers)
 - ✅ Clean, readable implementations
-- ✅ Multiple solution approaches demonstrated
+- ✅ Multiple solution approaches demonstrated (md_1, md_2, md_3)
 - ✅ Compilation with strict flags
+- ✅ Cipher boundary handling (z→a, Z→A)
 
 ## 🎓 Key Learnings
 
@@ -260,12 +146,21 @@ while (repeat_count--)
 - Iterating through strings safely
 - Handling whitespace and special characters
 - Copying vs modifying strings
+- Reversing strings efficiently
+
+### Cipher Algorithms
+- **ROT13**: Rotate alphabet by 13 positions (encryption/decryption)
+- **ROT1**: Rotate alphabet by 1 position (simple Caesar cipher)
+- Handling uppercase and lowercase separately
+- Preserving non-alphabetic characters
+- Wrapping around alphabet boundaries
 
 ### Algorithm Implementation
 - Breaking problems into smaller steps
 - FizzBuzz logic and modulo operations
 - Character-based algorithms
 - Multiple approaches to same problem
+- Comparing different implementation methods
 
 ## 🚀 Next Steps
 
@@ -281,22 +176,29 @@ After mastering Level 1, you're ready for:
 - Focus on understanding pointers - they are fundamental to C programming
 - Practice writing functions from scratch to understand how libraries work
 - Test your functions with various inputs including edge cases
+- **Cipher exercises** teach you about character manipulation and Caesar cipher variants
+- **Multiple methods** for same exercise help you understand optimization trade-offs
 
 ## 🤝 Tips for Success
 
 1. **Master Pointers**: They're essential for C programming
-2. **Test Edge Cases**: NULL pointers, empty strings, boundary values
+2. **Test Edge Cases**: NULL pointers, empty strings, boundary values (z→a)
 3. **Understand Memory**: Know what happens at each memory address
 4. **Read Man Pages**: `man strcpy`, `man strlen` for reference
 5. **Write Tests**: Create main functions to test your implementations
-6. **Compare Approaches**: Study the three repeat_alpha methods to see different solutions
-7. **Practice Daily**: Consistency is key to mastering these concepts
+6. **Compare Approaches**: Study the three methods (md_1, md_2, md_3) to see different solutions
+7. **Practice Ciphers**: Understand ROT13 and ROT1 - they're classic examples
+8. **Practice Daily**: Consistency is key to mastering these concepts
+9. **Draw Diagrams**: Visualize pointer operations and string transformations
+10. **Debug Step-by-Step**: Use printf or gdb to trace execution
 
 ## 🔗 Related Resources
 
 - [Pointers in C](https://en.cppreference.com/w/c/language/pointer)
 - [String Functions Reference](https://en.cppreference.com/w/c/string/byte)
 - [FizzBuzz Explained](https://en.wikipedia.org/wiki/Fizz_buzz)
+- [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+- [ROT13 Algorithm](https://en.wikipedia.org/wiki/ROT13)
 
 ---
 

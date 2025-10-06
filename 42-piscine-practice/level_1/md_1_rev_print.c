@@ -1,51 +1,49 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   md_3_repeat_alpha.c                                :+:      :+:    :+:   */
+/*   md_1_rev_print.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/04 19:08:46 by said-boutayeb     #+#    #+#             */
-/*   Updated: 2025/10/04 21:22:01 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/10/04 20:41:19 by said-boutayeb     #+#    #+#             */
+/*   Updated: 2025/10/04 21:24:32 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	main(int ac, char **av)
+void	ft_putchar(char c)
 {
-	int     i;
-	char	j;
-	char	*str;
+	write(1, &c, 1);
+	return ;
+}
+int	ft_strlen(char *str)
+{
+	int	len;
 
-	if (ac == 2)
+	len = 0;
+	while (str[len])
+		len++;
+	return (len);
+}
+
+int	main(int ac, char *av[])
+{
+	char	*str;
+	int	len;
+
+	if (ac != 2)
 	{
-		str = av[1];
-		i = 0;
-		while (str[i])
-		{
-			if (str[i] >= 'a' && str[i] <= 'z')
-			{
-				j = str[i];
-				while (j >= 'a')
-				{
-					write(1, &str[i], 1);
-					j--;
-				}
-			}
-			else if (str[i] >= 'A' && str[i] <= 'Z')
-			{
-				j = str[i];
-				while (j >= 'A')
-				{
-					write(1, &str[i], 1);
-					j--;
-				}
-			}
-			else
-				write(1, &str[i], 1);
-			i++;
-		}
+		ft_putchar('\n');
+		return (0);
 	}
-	write(1, "\n", 1);
+	str = av[1];
+	len = ft_strlen(str) - 1;
+	while (len >= 0)
+	{
+		ft_putchar(str[len]);
+		len--;
+	}
+	ft_putchar('\n');
+	return 0;
 }

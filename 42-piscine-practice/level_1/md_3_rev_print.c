@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   md_3_repeat_alpha.c                                :+:      :+:    :+:   */
+/*   md_3_rev_print.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/04 19:08:46 by said-boutayeb     #+#    #+#             */
-/*   Updated: 2025/10/04 21:22:01 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/10/04 21:16:22 by said-boutayeb     #+#    #+#             */
+/*   Updated: 2025/10/04 21:22:26 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,38 +14,25 @@
 
 int	main(int ac, char **av)
 {
-	int     i;
-	char	j;
+	int	i;
 	char	*str;
 
 	if (ac == 2)
 	{
-		str = av[1];
 		i = 0;
+		str = av[1];
 		while (str[i])
-		{
-			if (str[i] >= 'a' && str[i] <= 'z')
-			{
-				j = str[i];
-				while (j >= 'a')
-				{
-					write(1, &str[i], 1);
-					j--;
-				}
-			}
-			else if (str[i] >= 'A' && str[i] <= 'Z')
-			{
-				j = str[i];
-				while (j >= 'A')
-				{
-					write(1, &str[i], 1);
-					j--;
-				}
-			}
-			else
-				write(1, &str[i], 1);
 			i++;
+		i--;
+		while (i >= 0)
+		{
+			write(1, &str[i], 1);
+			i--;
 		}
+		write(1, "\n", 1);
 	}
-	write(1, "\n", 1);
+	else
+	{
+		write(1, "\n", 1);
+	}
 }

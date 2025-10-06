@@ -25,8 +25,8 @@ The 42 Piscine is an intensive programming bootcamp that teaches C programming f
 ---
 
 ### Level 1 - Core Concepts 🔄
-**Status:** In Progress (9 exercises)  
-**Focus:** String functions, basic algorithms, advanced logic
+**Status:** In Progress (17 exercises)  
+**Focus:** String functions, algorithms, cipher implementations
 
 📁 **Path:** `level_1/`  
 📖 **Details:** [View Level 1 README](level_1/README.md)
@@ -41,6 +41,14 @@ The 42 Piscine is an intensive programming bootcamp that teaches C programming f
 - `md_1_repeat_alpha.c` - Repeat alphabet characters (method 1)
 - `md_2_repeat_alpha.c` - Repeat alphabet characters (method 2)
 - `md_3_repeat_alpha.c` - Repeat alphabet characters (method 3)
+- `md_1_rev_print.c` - Reverse print string (method 1)
+- `md_2_rev_print.c` - Reverse print string (method 2)
+- `md_3_rev_print.c` - Reverse print string (method 3)
+- `md_1_rot_13.c` - ROT13 cipher (method 1)
+- `md_2_rot_13.c` - ROT13 cipher (method 2)
+- `md_1_rotone.c` - ROT1 cipher (method 1)
+- `md_2_rotone.c` - ROT1 cipher (method 2)
+- `md_3_rotone.c` - ROT1 cipher (method 3)
 
 ---
 
@@ -59,9 +67,9 @@ This level will focus on more advanced programming concepts and challenging algo
 | Metric | Value |
 |--------|-------|
 | **Levels Active** | 2 |
-| **Total Exercises Completed** | 20 |
+| **Total Exercises** | 28 |
 | **Level 0** | 11/11 ✅ |
-| **Level 1** | 9 🔄 |
+| **Level 1** | 17 🔄 |
 | **Success Rate** | 100% |
 | **Current Focus** | Level 1 |
 
@@ -89,12 +97,14 @@ All solutions in this collection adhere to:
 - Memory management and pointers
 - String manipulation techniques
 - Command-line argument processing
+- Cipher algorithms (ROT13, ROT1)
 
 ### Problem Solving
 - Algorithm design and analysis
 - Code optimization strategies
 - Debugging and testing methodologies
 - Edge case handling
+- Multiple solution approaches
 
 ### Best Practices
 - Writing maintainable code
@@ -126,7 +136,6 @@ gcc -Wall -Wextra -Werror hello.c -o hello
 
 # Run it
 ./hello
-# Output: Hello World!
 ```
 
 ## 📖 Documentation Structure
@@ -135,7 +144,6 @@ Each level has its own detailed README containing:
 - Complete exercise list with descriptions
 - Learning objectives and key concepts
 - Compilation and testing instructions
-- Code examples and patterns
 - Complexity analysis
 - Tips and best practices
 
@@ -158,7 +166,7 @@ Each level has its own detailed README containing:
 ## 🏆 Milestones
 
 - ✅ Level 0 completed (11/11) - Strong foundation established
-- 🔄 Level 1 in progress (9 exercises) - Building core skills
+- 🔄 Level 1 in progress (17 exercises) - Building core skills with multiple solution approaches
 - ⏳ Level 3 upcoming - Advanced challenges ahead
 
 ## 📝 Notes
@@ -168,6 +176,7 @@ Each level has its own detailed README containing:
 - **Optimization:** Focus on both correctness and efficiency
 - **Documentation:** Code is well-commented where necessary
 - **Standards:** Strict adherence to 42 Norminette
+- **Multiple Methods:** Different approaches (md_1, md_2, md_3) demonstrate various problem-solving techniques
 
 ## 🤝 Contribution Guidelines
 
@@ -195,6 +204,6 @@ This project follows the [42 Unlicense](https://github.com/gcamerli/42unlicense)
 
 [⬅️ Back to Main Repository](../README.md)
 
-*Last Updated: September 2025*
+*Last Updated: October 2025*
 
 </div>

@@ -1,21 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   md_3_repeat_alpha.c                                :+:      :+:    :+:   */
+/*   md_2_rot_13.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/04 19:08:46 by said-boutayeb     #+#    #+#             */
-/*   Updated: 2025/10/04 21:22:01 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/10/05 19:00:31 by said-boutayeb     #+#    #+#             */
+/*   Updated: 2025/10/05 22:00:03 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	main(int ac, char **av)
+void	ft_putchar(char c)
 {
-	int     i;
-	char	j;
+	write(1, &c, 1);
+	return ;
+}
+
+int	main (int ac, char *av[])
+{
+	int	i;
 	char	*str;
 
 	if (ac == 2)
@@ -24,28 +29,33 @@ int	main(int ac, char **av)
 		i = 0;
 		while (str[i])
 		{
-			if (str[i] >= 'a' && str[i] <= 'z')
+			if (str[i] >= 'a' && str[i] <= 'm')
 			{
-				j = str[i];
-				while (j >= 'a')
-				{
-					write(1, &str[i], 1);
-					j--;
-				}
+				ft_putchar(str[i] + 13);
 			}
-			else if (str[i] >= 'A' && str[i] <= 'Z')
+			else if (str[i] >= 'n' && str[i] <= 'z')
 			{
-				j = str[i];
-				while (j >= 'A')
-				{
-					write(1, &str[i], 1);
-					j--;
-				}
+				ft_putchar(str[i] - 13);
+			}
+
+			else if (str[i] >= 'A' && str[i] <= 'M')
+			{
+				ft_putchar(str[i] + 13);
+			}
+			else if (str[i] >= 'N' && str[i] <= 'Z')
+			{
+				ft_putchar(str[i] - 13);
 			}
 			else
-				write(1, &str[i], 1);
+				ft_putchar(str[i]);
 			i++;
 		}
 	}
-	write(1, "\n", 1);
+	else
+	{
+		ft_putchar('\n');
+		return 0;
+	}
+	ft_putchar('\n');
+	return 0;
 }
