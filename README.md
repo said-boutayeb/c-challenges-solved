@@ -349,7 +349,7 @@ gcc -Wall -Wextra -Werror hello.c -o hello
 ### 💬 How Can You Help?
 
 </div>
-
+<div align="center">
 <table>
 <tr>
 <td align="center" width="25%">
@@ -378,6 +378,7 @@ gcc -Wall -Wextra -Werror hello.c -o hello
 <br/>
 <b>⭐ Star Repo</b>
 <br/>
+</div>
 <sub>Show support!</sub>
 </td>
 </tr>
