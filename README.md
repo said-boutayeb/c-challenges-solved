@@ -87,10 +87,10 @@ c-challenges-solved/
 
 ```mermaid
 graph LR
-    A[🌱 Beginner<br/><sub>Start: HTML • CSS • Git</sub>] -->|Level 0| B[✅ Completed<br/><sub>Core Concepts</sub>]
-    B -->|Level 1| C[🔄 In Progress<br/><sub>JavaScript • React</sub>]
-    C -->|Level 2| D[⏳ Advanced<br/><sub>Optimization • Projects</sub>]
-    D -->|Level 3| E[🏆 Expert<br/><sub>Build • Share • Inspire</sub>]
+    A[🌱 Beginner] -->|Level 0| B[✅ Completed]
+    B -->|Level 1| C[🔄 In Progress]
+    C -->|Level 2| D[⏳ Advanced]
+    D -->|Level 3| E[🏆 Expert]
 
     %% 🎨 Custom Styling
     style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#ffffff
