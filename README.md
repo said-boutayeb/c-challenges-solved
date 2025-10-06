@@ -87,14 +87,23 @@ c-challenges-solved/
 
 ```mermaid
 graph LR
-    A[🌱 Beginner] -->|Level 0| B[✅ Completed]
-    B -->|Level 1| C[🔄 In Progress]
-    C -->|Level 3| D[⏳ Advanced]
-    
-    style A fill:#e1f5ff
-    style B fill:#c8e6c9
-    style C fill:#fff9c4
-    style D fill:#f8bbd0
+    A[🌱 Beginner<br/><sub>Start: HTML • CSS • Git</sub>] -->|Level 0| B[✅ Completed<br/><sub>Core Concepts</sub>]
+    B -->|Level 1| C[🔄 In Progress<br/><sub>JavaScript • React</sub>]
+    C -->|Level 2| D[⏳ Advanced<br/><sub>Optimization • Projects</sub>]
+    D -->|Level 3| E[🏆 Expert<br/><sub>Build • Share • Inspire</sub>]
+
+    %% 🎨 Custom Styling
+    style A fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#ffffff
+    style B fill:#065f46,stroke:#10b981,stroke-width:2px,color:#ffffff
+    style C fill:#facc15,stroke:#f59e0b,stroke-width:2px,color:#0f172a
+    style D fill:#ef4444,stroke:#dc2626,stroke-width:2px,color:#ffffff
+    style E fill:#111827,stroke:#38bdf8,stroke-width:2px,color:#ffffff
+
+    %% ✨ Link Styling
+    linkStyle 0 stroke:#94a3b8,stroke-width:2px
+    linkStyle 1 stroke:#94a3b8,stroke-width:2px
+    linkStyle 2 stroke:#94a3b8,stroke-width:2px
+    linkStyle 3 stroke:#94a3b8,stroke-width:2px
 ```
 
 </div>
