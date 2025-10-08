@@ -2,46 +2,68 @@
 
 # 💻 C Challenges Solved
 
-### 🚀 A Journey Through Programming Excellence
+### 🚀 *Mastering C Programming Through Practice*
 
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/said-boutayeb)
-[![C Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![42 School](https://img.shields.io/badge/School-42-000000.svg)](https://www.42.fr/)
-[![Morocco](https://img.shields.io/badge/From-Morocco%20🇲🇦-green.svg)](https://en.wikipedia.org/wiki/Morocco)
+[![C Language](https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![42 School](https://img.shields.io/badge/School-42-000000?style=flat-square)](https://www.42.fr/)
+[![Morocco](https://img.shields.io/badge/From-Morocco%20🇲🇦-green?style=flat-square)](https://en.wikipedia.org/wiki/Morocco)
 
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
+</div>
+
 ---
 
-### 📊 Quick Stats
+## 📊 Quick Overview
+
+<div align="center">
+
+| **Collections** | **Total Solved** | **Success Rate** | **Languages** | **Current Focus** |
+|:---------------:|:----------------:|:----------------:|:-------------:|:-----------------:|
+| 1 | 34+ | 100% | C | Level 2 |
+
+![Progress](https://progress-bar.dev/67/?title=Overall%20Progress&width=500&color=4CAF50)
+
+</div>
+
+---
+
+## 🎯 About
+
+> *"The only way to learn a new programming language is by writing programs in it."* - Dennis Ritchie
+
+This repository is a **living documentation** of my journey in mastering C programming. Each challenge solved represents dedication to understanding fundamentals, writing clean code, and continuous improvement.
+
+**What You'll Find Here:**
+- ✅ Real solutions to programming challenges
+- 📚 Multiple collections organized by source/difficulty
+- 🎓 Clean, well-documented, and tested code
+- 📈 Progressive difficulty from basics to advanced
+
+---
+
+## 📂 Collections
+
+<div align="center">
 
 <table>
 <tr>
-<td align="center">
-<img src="https://img.shields.io/badge/Collections-1-brightgreen?style=for-the-badge&logo=stackshare" />
-<br/>
-<b>Collections</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Exercises-51-blue?style=for-the-badge&logo=checkmarx" />
-<br/>
-<b>Total Exercises</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Completed-34-success?style=for-the-badge&logo=codacy" />
-<br/>
-<b>Solved</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Active-Level_2-orange?style=for-the-badge&logo=codeship" />
-<br/>
-<b>Current Focus</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Success_Rate-100%25-success?style=for-the-badge&logo=cachet" />
-<br/>
-<b>Success Rate</b>
-</td>
+<th>Collection</th>
+<th>Status</th>
+<th>Progress</th>
+<th>Description</th>
+<th>Link</th>
+</tr>
+<tr>
+<td><b>🎯 42 Piscine Practice</b></td>
+<td>🔄 Active</td>
+<td>34 solved</td>
+<td>Progressive C exercises from 42 School curriculum</td>
+<td><a href="42-piscine-practice/README.md">📖 Explore</a></td>
+</tr>
+<tr>
+<td colspan="5" align="center"><i>More collections coming soon...</i></td>
 </tr>
 </table>
 
@@ -49,170 +71,59 @@
 
 ---
 
-## 🎯 About This Repository
-
-> **"The only way to learn a new programming language is by writing programs in it."** - *Dennis Ritchie*
-
-Welcome to my programming journey! This repository showcases my dedication to mastering C programming through carefully solved challenges. Each solution reflects my commitment to **clean code**, **efficiency**, and **best practices**.
-
-### 🌟 Why This Repository?
-
-```ascii
-┌─────────────────────────────────────────────────────────┐
-│  📚 Learning Resource    →  Study real solutions        │
-│  🎓 Portfolio Showcase   →  Demonstrate skills          │
-│  🤝 Community Sharing    →  Help fellow learners        │
-│  📈 Progress Tracking    →  Document growth journey     │
-└─────────────────────────────────────────────────────────┘
-```
-
----
-
-## 📂 Repository Structure
-
-```
-c-challenges-solved/
-│
-├── 🎯 42-piscine-practice/
-│   ├── ✅ level_0/          # Fundamentals (11 exercises)
-│   ├── ✅ level_1/          # Core Concepts (23 exercises)
-│   ├── 🔄 level_2/          # Advanced Manipulation (In Progress)
-│   └── ⏳ level_3+/         # Expert Level (Coming Soon)
-│
-└── 📄 README.md             # You are here!
-```
-
----
-
-## 🗺️ Learning Journey
+## 🛠️ Tech Stack
 
 <div align="center">
-
-```
-┌────────────────────────────────────────────────────────────────┐
-│                                                                │
-│   🌱 Foundation    →    ✅ Mastered    →    🔄 Building       │
-│   (Level 0)              (Level 1)          (Level 2)         │
-│      11 ex.                23 ex.              TBD            │
-│                                                                │
-│                              ↓                                 │
-│                                                                │
-│                       ⏳ Advanced Levels                       │
-│                       (Level 3, 4, 5...)                      │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
-```
-
-### 📈 Overall Progress
-
-![Progress](https://progress-bar.dev/67/?title=Completion%20Rate&width=600&color=4CAF50&suffix=%20(34/51))
-
-</div>
-
----
-
-## 🏆 Achievements & Milestones
-
-<table>
-<tr>
-<td width="50%">
-
-### ✅ Completed
-- 🎉 **Level 0** - All 11 exercises solved
-- 💪 **Level 1** - All 23 exercises solved
-- 🔤 String manipulation expert
-- 📝 Command-line argument handling
-- 🔐 Cipher implementations (ROT13, ROT1)
-- 🎯 100% success rate maintained
-
-</td>
-<td width="50%">
-
-### 🔄 In Progress
-- 🚀 **Level 2** - Advanced challenges
-- 🧠 Complex algorithms
-- 📊 Data manipulation
-- ⚡ Performance optimization
-- 🎲 Pattern recognition
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-### 📈 Progress Visualization
-
-| Level | Progress | Status |
-|:-----:|:--------:|:------:|
-| **Level 0** | ![Progress](https://progress-bar.dev/100/?scale=100&width=200&color=4CAF50) | ✅ Complete |
-| **Level 1** | ![Progress](https://progress-bar.dev/100/?scale=100&width=200&color=4CAF50) | ✅ Complete |
-| **Level 2** | ![Progress](https://progress-bar.dev/40/?scale=100&width=200&color=FFC107) | 🔄 Active |
-| **Level 3+** | ![Progress](https://progress-bar.dev/0/?scale=100&width=200&color=9E9E9E) | ⏳ Planned |
-
-</div>
-
----
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-### Languages & Standards
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-### Development Environment
-
-| Component | Technology |
-|:---------:|:----------:|
-| **Language** | C (C99/C11) |
-| **Compiler** | GCC with `-Wall -Wextra -Werror` |
-| **Standard** | 42 Norminette |
-| **OS** | Linux/Unix |
-| **Version Control** | Git & GitHub |
+**Development Standards**
+- 🔹 Language: C (C99/C11)
+- 🔹 Compiler: GCC with `-Wall -Wextra -Werror`
+- 🔹 Style: 42 Norminette
+- 🔹 Platform: Linux/Unix
 
 </div>
 
 ---
 
-## 💡 Skills & Concepts
+## 💡 Core Skills
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td width="33%" align="center">
 
-### 🧠 Core Programming
-- Memory Management
-- Pointer Manipulation
-- String Operations
-- Data Structures
-- Algorithm Design
+**🧠 Fundamentals**
 
-</td>
-<td align="center" width="33%">
-
-### 🔐 Advanced Topics
-- Cipher Algorithms
-- ROT13 Implementation
-- ROT1 Encryption
-- Pattern Matching
-- Optimization Techniques
+Memory Management  
+Pointers & References  
+Data Structures  
+Algorithm Design  
 
 </td>
-<td align="center" width="33%">
+<td width="33%" align="center">
 
-### 🎯 Best Practices
-- Clean Code
-- Code Documentation
-- Testing & Debugging
-- Performance Tuning
-- Version Control
+**🔧 Advanced**
+
+String Algorithms  
+Cipher Implementation  
+Pattern Matching  
+Code Optimization  
+
+</td>
+<td width="33%" align="center">
+
+**✨ Best Practices**
+
+Clean Code  
+Testing & Debugging  
+Documentation  
+Version Control  
 
 </td>
 </tr>
@@ -222,231 +133,133 @@ c-challenges-solved/
 
 ---
 
-## 📚 Challenge Collections
-
-<details open>
-<summary><h3>🎯 42 Piscine Practice</h3></summary>
-
-<br/>
-
-A progressive series of exercises from the renowned **42 School** curriculum, designed to build programming mastery from the ground up.
-
-<div align="center">
-
-| Level | Status | Exercises | Focus Area | Link |
-|:-----:|:------:|:---------:|:----------:|:----:|
-| **0** | ✅ Complete | 11/11 | Basic I/O & Fundamentals | [📖 View](42-piscine-practice/level_0/README.md) |
-| **1** | ✅ Complete | 23/23 | String Functions & Algorithms | [📖 View](42-piscine-practice/level_1/README.md) |
-| **2** | 🔄 Active | In Progress | Advanced Manipulation | Working on it |
-| **3+** | ⏳ Planned | TBD | Expert Level | Coming Soon |
-
-</div>
-
-#### 🌟 Level 0 - Fundamentals ✅
-
-```
-✓ Basic output operations      ✓ Parameter handling
-✓ Number printing              ✓ Alphabet manipulation  
-✓ Character filtering          ✓ Command-line arguments
-```
-
-#### 🚀 Level 1 - Core Concepts ✅
-
-```
-✓ String functions (ft_strlen, ft_strcpy, ft_putstr)
-✓ Algorithm challenges (FizzBuzz, first_word)
-✓ Cipher implementations (ROT13, ROT1)
-✓ Multiple solution approaches (repeat_alpha, rev_print)
-✓ Advanced string manipulation (ulstr, search_and_replace)
-```
-
-#### 🔥 Level 2 - Advanced Manipulation 🔄
-
-```
-○ Complex algorithms
-○ Data processing
-○ Advanced string operations
-○ Pattern recognition
-```
-
-</details>
-
----
-
-## 🚀 Quick Start Guide
-
-<div align="center">
-
-### 📥 Clone & Setup
-
-</div>
+## 🚀 Quick Start
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/said-boutayeb/c-challenges-solved.git
 
-# Navigate to the project
+# Navigate to project
 cd c-challenges-solved
 
-# Explore collections
-ls -la 42-piscine-practice/
-```
+# Explore a collection
+cd 42-piscine-practice
+cat README.md
 
-<div align="center">
-
-### ⚙️ Compile & Run
-
-</div>
-
-```bash
-# Navigate to specific level
-cd 42-piscine-practice/level_0
-
-# Compile with strict flags
-gcc -Wall -Wextra -Werror hello.c -o hello
-
-# Execute
-./hello
-```
-
-<div align="center">
-
-### 🧪 Testing Example
-
-</div>
-
-```bash
-# Test with arguments
-./first_word "Hello World"
-# Output: Hello
-
-# Test cipher
-./rot_13 "Hello"
-# Output: Uryyb
-
-# Test function implementations
-./ft_strlen "test"
-# Returns: 4
+# Compile any exercise
+gcc -Wall -Wextra -Werror file.c -o program
+./program
 ```
 
 ---
 
-## 🎓 Learning Resources
+## 📖 Documentation Structure
+
+Each collection has its own comprehensive documentation:
+
+```
+📦 c-challenges-solved/
+├── 📄 README.md (You are here - High-level overview)
+├── 📂 collection-name/
+│   ├── 📄 README.md (Collection details)
+│   ├── 📂 level/category/
+│   │   ├── 📄 README.md (Level specifics)
+│   │   └── *.c (Solutions)
+```
+
+**Navigation:** Start here → Choose collection → Explore levels → Study solutions
+
+---
+
+## 🎓 Learning Philosophy
 
 <div align="center">
 
-### 📖 Recommended Reading
-
-[![C Programming](https://img.shields.io/badge/Book-The%20C%20Programming%20Language-blue?style=for-the-badge)](https://en.wikipedia.org/wiki/The_C_Programming_Language)
-[![Modern Approach](https://img.shields.io/badge/Book-C%20Programming%20Modern%20Approach-green?style=for-the-badge)](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
-
-### 🔗 Useful Links
-
-| Resource | Description | Link |
-|:---------|:------------|:----:|
-| 🏫 **42 School** | Official 42 Network website | [Visit](https://www.42.fr/) |
-| 📚 **C Reference** | Complete C documentation | [Visit](https://en.cppreference.com/w/c) |
-| 🐧 **Man Pages** | Linux manual pages | [Visit](https://man7.org/linux/man-pages/) |
-| 📖 **GNU C Library** | GCC library documentation | [Visit](https://www.gnu.org/software/libc/manual/) |
+```
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│   📚 Study   │ ──→ │  💻 Practice │ ──→ │  🔄 Refine  │
+│              │     │              │     │              │
+│ Understand   │     │ Implement    │     │  Optimize   │
+│  Concepts    │     │  Solutions   │     │   & Learn   │
+└──────────────┘     └──────────────┘     └──────────────┘
+```
 
 </div>
 
 ---
 
-## 🤝 Community & Contribution
+## 📚 Resources
 
 <div align="center">
 
-### 💬 How Can You Help?
+### Official Documentation
 
-<table>
-<tr>
-<td align="center" width="25%">
-<br/>
-🐛
-<br/><br/>
-<b>Report Bugs</b>
-<br/><br/>
-<sub>Found an issue?</sub>
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-💡
-<br/><br/>
-<b>Suggest Ideas</b>
-<br/><br/>
-<sub>Have improvements?</sub>
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-❓
-<br/><br/>
-<b>Ask Questions</b>
-<br/><br/>
-<sub>Need clarification?</sub>
-<br/><br/>
-</td>
-<td align="center" width="25%">
-<br/>
-⭐
-<br/><br/>
-<b>Star Repo</b>
-<br/><br/>
-<sub>Show support!</sub>
-<br/><br/>
-</td>
-</tr>
-</table>
+[![42](https://img.shields.io/badge/42-Network-black?style=for-the-badge)](https://www.42.fr/)
+[![C Docs](https://img.shields.io/badge/C-Reference-blue?style=for-the-badge)](https://en.cppreference.com/w/c)
 
-### 🌟 Show Your Support
+### Recommended Books
 
-If you find this repository helpful, please consider:
+| Title | Author | Focus |
+|:------|:-------|:------|
+| The C Programming Language | Kernighan & Ritchie | Fundamentals |
+| C Programming: A Modern Approach | K. N. King | Comprehensive |
+| Expert C Programming | Peter van der Linden | Advanced |
 
-[![Star](https://img.shields.io/github/stars/said-boutayeb/c-challenges-solved?style=social)](https://github.com/said-boutayeb/c-challenges-solved)
+</div>
+
+---
+
+## 🤝 Community
+
+<div align="center">
+
+### How You Can Help
+
+| 🐛 Bug Reports | 💡 Ideas | ❓ Questions | ⭐ Support |
+|:-------------:|:--------:|:------------:|:----------:|
+| Found an issue? | Suggest improvements | Need help? | Star the repo! |
+
+---
+
+### Show Your Support
+
+[![Stars](https://img.shields.io/github/stars/said-boutayeb/c-challenges-solved?style=social)](https://github.com/said-boutayeb/c-challenges-solved)
 [![Follow](https://img.shields.io/github/followers/said-boutayeb?style=social)](https://github.com/said-boutayeb)
 
 </div>
 
 ---
 
-## 📜 Code Standards
+## ✅ Quality Standards
 
 <div align="center">
 
-### ✅ Quality Checklist
-
-| Standard | Status |
-|:---------|:------:|
-| 42 Norminette Compliance | ✅ |
-| Strict Compilation Flags | ✅ |
-| No Warnings | ✅ |
-| Memory Leak Free | ✅ |
-| Edge Cases Handled | ✅ |
-| Well Documented | ✅ |
-| Optimized Performance | ✅ |
+| Standard | Description | Status |
+|:---------|:------------|:------:|
+| **Compilation** | No warnings with strict flags | ✅ |
+| **Style** | Follows coding standards | ✅ |
+| **Memory** | No leaks, safe operations | ✅ |
+| **Testing** | Edge cases covered | ✅ |
+| **Documentation** | Clear and helpful | ✅ |
 
 </div>
 
 ---
 
-## 📫 Connect With Me
+## 📫 Connect
 
 <div align="center">
 
-### 🌐 Let's Connect!
-
 [![GitHub](https://img.shields.io/badge/GitHub-said--boutayeb-181717?style=for-the-badge&logo=github)](https://github.com/said-boutayeb)
-[![Location](https://img.shields.io/badge/Location-El%20Jadida%2C%20Morocco%20🇲🇦-red?style=for-the-badge&logo=google-maps)](https://en.wikipedia.org/wiki/El_Jadida)
+[![Location](https://img.shields.io/badge/📍-El%20Jadida,%20Morocco-red?style=for-the-badge)](https://en.wikipedia.org/wiki/El_Jadida)
 
 ---
 
-### 💼 Profile Stats
+### GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=said-boutayeb&show_icons=true&theme=radical&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=said-boutayeb&show_icons=true&theme=radical&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=said-boutayeb&layout=compact&theme=radical&hide_border=true)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=said-boutayeb&layout=compact&theme=radical&hide_border=true)
 
 </div>
 
@@ -454,19 +267,17 @@ If you find this repository helpful, please consider:
 
 ## 📝 License
 
-<div align="center">
-
 This project follows the [42 Unlicense](https://github.com/gcamerli/42unlicense) terms.
 
 ---
 
-### 🎉 Thank You for Visiting!
+<div align="center">
+
+### 🎉 Thank You!
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Happy+Coding!+%F0%9F%9A%80;Keep+Learning!+%F0%9F%93%9A;Never+Stop+Growing!+%F0%9F%8C%B1" alt="Typing SVG" />
 
----
-
-**Made with ❤️ and lots of ☕ by Said Boutayeb**
+**Made with ❤️ and lots of ☕**
 
 *Last Updated: October 2025*
 
