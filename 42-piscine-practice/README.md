@@ -2,42 +2,23 @@
 
 # 🏊‍♂️ 42 Piscine Practice
 
-### *Building Programming Mastery Through Progressive Challenges*
+### *Progressive C Programming Challenges*
 
 [![42 School](https://img.shields.io/badge/School-42-000000?style=for-the-badge&logo=42)](https://www.42.fr/)
 [![C Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Norminette](https://img.shields.io/badge/Style-Norminette-success?style=for-the-badge)](https://github.com/42School/norminette)
 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Building+Mastery+Step+by+Step;From+Basics+to+Advanced;Practice+Makes+Perfect!" alt="Typing SVG" />
+
 ---
 
-### 📊 Collection Overview
+### 📊 Collection Stats
 
-<table>
-<tr>
-<td align="center">
-<img src="https://img.shields.io/badge/Levels-3-blue?style=for-the-badge" />
-<br/>
-<b>Active Levels</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Total-51-purple?style=for-the-badge" />
-<br/>
-<b>Total Exercises</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Completed-34-success?style=for-the-badge" />
-<br/>
-<b>Solved</b>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Progress-67%25-orange?style=for-the-badge" />
-<br/>
-<b>Completion</b>
-</td>
-</tr>
-</table>
+| Levels | Total Exercises | Completed | In Progress | Success Rate |
+|:------:|:---------------:|:---------:|:-----------:|:------------:|
+| 4 | 51+ | 34 | Level 2 | 100% |
 
-![Progress Bar](https://progress-bar.dev/67/?title=Overall%20Progress&width=500&color=4CAF50)
+![Progress](https://progress-bar.dev/67/?title=Overall%20Completion&width=500&color=4CAF50)
 
 </div>
 
@@ -45,152 +26,126 @@
 
 ## 🎯 About This Collection
 
-The **42 Piscine** is an intensive programming bootcamp that teaches C from scratch. This collection represents my journey through carefully crafted exercises that progressively build mastery in:
+The **42 Piscine** is an intensive programming bootcamp that teaches C from the ground up. This collection represents my journey through carefully designed exercises that progressively build mastery.
 
-```
-🧠 Algorithmic Thinking  →  🔧 Problem Solving  →  ⚡ Code Optimization
-```
-
-Each level introduces new concepts while reinforcing previous knowledge, creating a solid foundation for advanced programming.
+**What Makes This Special:**
+- 🎓 Official 42 School curriculum
+- 📈 Progressive difficulty levels
+- 🔄 Multiple solution approaches
+- ✅ 100% Norminette compliant
+- 🧪 Thoroughly tested solutions
 
 ---
 
-## 🗺️ Levels Navigator
+## 🗺️ Learning Path
 
 <div align="center">
 
+### Level Progression
+
 <table>
 <tr>
-<th width="15%">Level</th>
-<th width="15%">Status</th>
-<th width="20%">Progress</th>
-<th width="30%">Focus Area</th>
-<th width="20%">Explore</th>
-</tr>
-
-<tr>
-<td align="center"><h3>0️⃣</h3></td>
-<td align="center">✅<br/><b>Complete</b></td>
-<td align="center">
-<b>11/11</b><br/>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Seedling.png" alt="Seedling" width="50" />
+<h3>Level 0</h3>
+<b>✅ Complete</b>
+<br/>
 <img src="https://progress-bar.dev/100/?scale=100&width=120&color=4CAF50" />
+<br/>
+<b>11/11</b>
+<br/>
+<sub>Fundamentals</sub>
+<br/>
+<a href="level_0/README.md">📖 Details</a>
 </td>
-<td>
-<b>Fundamentals</b><br/>
-<sub>Basic I/O, Characters, Args</sub>
-</td>
-<td align="center">
-<a href="level_0/README.md">
-<img src="https://img.shields.io/badge/View-Details-blue?style=for-the-badge" />
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center"><h3>1️⃣</h3></td>
-<td align="center">✅<br/><b>Complete</b></td>
-<td align="center">
-<b>23/23</b><br/>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Evergreen%20Tree.png" alt="Tree" width="50" />
+<h3>Level 1</h3>
+<b>✅ Complete</b>
+<br/>
 <img src="https://progress-bar.dev/100/?scale=100&width=120&color=4CAF50" />
+<br/>
+<b>23/23</b>
+<br/>
+<sub>Core Concepts</sub>
+<br/>
+<a href="level_1/README.md">📖 Details</a>
 </td>
-<td>
-<b>Core Concepts</b><br/>
-<sub>Strings, Algorithms, Ciphers</sub>
-</td>
-<td align="center">
-<a href="level_1/README.md">
-<img src="https://img.shields.io/badge/View-Details-blue?style=for-the-badge" />
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center"><h3>2️⃣</h3></td>
-<td align="center">🔄<br/><b>Active</b></td>
-<td align="center">
-<b>In Progress</b><br/>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="50" />
+<h3>Level 2</h3>
+<b>🔄 Active</b>
+<br/>
 <img src="https://progress-bar.dev/40/?scale=100&width=120&color=FFC107" />
+<br/>
+<b>In Progress</b>
+<br/>
+<sub>Advanced</sub>
+<br/>
+<span>⚡ Working</span>
 </td>
-<td>
-<b>Advanced Manipulation</b><br/>
-<sub>Complex Algorithms, Data Handling</sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Working-On%20It-orange?style=for-the-badge" />
-</td>
-</tr>
-
-<tr>
-<td align="center"><h3>3️⃣+</h3></td>
-<td align="center">⏳<br/><b>Planned</b></td>
-<td align="center">
-<b>0/?</b><br/>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="50" />
+<h3>Level 3+</h3>
+<b>⏳ Planned</b>
+<br/>
 <img src="https://progress-bar.dev/0/?scale=100&width=120&color=9E9E9E" />
-</td>
-<td>
-<b>Expert Level</b><br/>
-<sub>Data Structures, Recursion</sub>
-</td>
-<td align="center">
-<img src="https://img.shields.io/badge/Coming-Soon-lightgrey?style=for-the-badge" />
+<br/>
+<b>0/?</b>
+<br/>
+<sub>Expert</sub>
+<br/>
+<span>🔜 Soon</span>
 </td>
 </tr>
-
 </table>
 
-</div>
-
----
-
-## 🎓 Learning Path
-
-<div align="center">
+### Journey Map
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  Level 0          Level 1          Level 2          Level 3 │
-│  ────────────────────────────────────────────────────────   │
-│                                                             │
-│    🌱              🌿              🌳              🌲       │
-│  Seedling        Growing         Blooming        Mature    │
-│                                                             │
-│    ✅              ✅              🔄              ⏳       │
-│  11 ex.          23 ex.         In Progress      Planned   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+🌱 Foundation (Level 0) ━━━✅━━━> 🌿 Growth (Level 1) ━━━✅━━━> 🔥 Mastery (Level 2) ━━━🔄━━━> 🏆 Expert (Level 3+)
+   Basic I/O                      String & Algorithms               Advanced Topics              Complex Structures
+   11 exercises                   23 exercises                      In Progress                  Coming Soon
 ```
 
 </div>
 
 ---
 
-## 🏆 Key Achievements
+## 🏆 Achievements Unlocked
 
 <div align="center">
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
-### ✅ Mastered Concepts
+### ✅ Mastered
 
-- 🎯 **34 Exercises** Successfully Completed
-- 📚 **2 Full Levels** Conquered
-- 💯 **100% Success Rate** on Solved
-- 🔧 **Multiple Approaches** per Problem
-- ⚡ **Clean Code** Standards
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Check%20Mark%20Button.png" alt="Check" width="30" />
+
+**34 Exercises Completed**
+
+🎯 Basic I/O Operations  
+🔤 String Manipulation  
+🔐 Cipher Algorithms  
+⚡ Code Optimization  
+🎲 Algorithm Design  
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
-### 🚀 Current Focus (Level 2)
+### 🚀 In Progress
 
-- 🧩 Complex String Manipulation
-- 🔄 Advanced Algorithms
-- 📊 Data Processing
-- 🎲 Pattern Recognition
-- 🧠 Logical Problem Solving
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" />
+
+**Level 2 Active**
+
+🧩 Complex Algorithms  
+📊 Data Processing  
+🔍 Pattern Recognition  
+💡 Problem Solving  
+🎨 Creative Solutions  
 
 </td>
 </tr>
@@ -204,13 +159,13 @@ Each level introduces new concepts while reinforcing previous knowledge, creatin
 
 <div align="center">
 
-| Category | Skills Acquired | Proficiency |
-|:---------|:----------------|:------------|
-| **Basic I/O** | write(), output handling | ⭐⭐⭐⭐⭐ |
-| **Strings** | Manipulation, parsing, algorithms | ⭐⭐⭐⭐⭐ |
-| **Pointers** | Memory, addressing, references | ⭐⭐⭐⭐ |
-| **Algorithms** | FizzBuzz, ciphers, sorting | ⭐⭐⭐⭐ |
-| **Problem Solving** | Multiple solutions, optimization | ⭐⭐⭐⭐ |
+| Skill Category | Technologies & Concepts | Proficiency |
+|:---------------|:------------------------|:-----------:|
+| **🔧 Basic I/O** | write(), printf(), system calls | <img src="https://progress-bar.dev/100/?scale=100&width=150&color=4CAF50" /> |
+| **🔤 Strings** | Manipulation, parsing, algorithms | <img src="https://progress-bar.dev/100/?scale=100&width=150&color=4CAF50" /> |
+| **🧠 Pointers** | Memory, addressing, references | <img src="https://progress-bar.dev/90/?scale=100&width=150&color=4CAF50" /> |
+| **🎲 Algorithms** | Sorting, searching, ciphers | <img src="https://progress-bar.dev/85/?scale=100&width=150&color=8BC34A" /> |
+| **📊 Data Structures** | Arrays, lists, trees | <img src="https://progress-bar.dev/40/?scale=100&width=150&color=FFC107" /> |
 
 </div>
 
@@ -220,25 +175,45 @@ Each level introduces new concepts while reinforcing previous knowledge, creatin
 
 <div align="center">
 
-### Technical Requirements
+### Compilation & Quality
 
-![C99/C11](https://img.shields.io/badge/Standard-C99%2FC11-blue?style=flat-square)
-![GCC](https://img.shields.io/badge/Compiler-GCC-red?style=flat-square)
-![Norminette](https://img.shields.io/badge/Style-Norminette-success?style=flat-square)
-![No Leaks](https://img.shields.io/badge/Memory-Leak%20Free-green?style=flat-square)
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="40" />
+<br/><b>Compiler</b>
+<br/><sub>GCC</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="40" />
+<br/><b>Flags</b>
+<br/><sub>-Wall -Wextra -Werror</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bookmark%20Tabs.png" alt="Style" width="40" />
+<br/><b>Style</b>
+<br/><sub>Norminette</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Test%20Tube.png" alt="Test" width="40" />
+<br/><b>Testing</b>
+<br/><sub>Edge Cases</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Green%20Circle.png" alt="Clean" width="40" />
+<br/><b>Memory</b>
+<br/><sub>Leak Free</sub>
+</td>
+</tr>
+</table>
 
-### Compilation Flags
+### Quality Checklist
 
-```bash
-gcc -Wall -Wextra -Werror source.c -o program
-```
-
-**Every exercise must:**
-- ✅ Compile without warnings
-- ✅ Follow 42 Norminette
-- ✅ Handle edge cases
-- ✅ Be memory-safe
-- ✅ Pass all tests
+✅ Compiles without warnings  
+✅ Follows 42 Norminette  
+✅ Handles all edge cases  
+✅ Memory safe operations  
+✅ Well documented code  
 
 </div>
 
@@ -248,31 +223,36 @@ gcc -Wall -Wextra -Werror source.c -o program
 
 <div align="center">
 
-```
-📁 42-piscine-practice/
-│
-├── 📘 README.md (This overview)
-│
-├── 📗 level_0/
-│   ├── README.md (Detailed guide)
-│   └── *.c files
-│
-├── 📗 level_1/
-│   ├── README.md (Detailed guide)
-│   └── *.c files
-│
-└── 📗 level_2/
-    └── (Coming soon...)
-```
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Open%20Book.png" alt="Book" width="50" />
 
-**Each level README contains:**
-- 📝 Complete exercise descriptions
-- 🎯 Learning objectives
-- 💻 Compilation examples
-- 🧪 Testing strategies
-- 💡 Helpful tips & patterns
+### How Documentation is Organized
 
 </div>
+
+```
+📂 42-piscine-practice/
+│
+├── 📄 README.md (This page - Collection overview)
+│   ├─ Stats & progress
+│   ├─ Level navigation
+│   └─ Quick start guide
+│
+├── 📁 level_0/
+│   └── 📄 README.md (Detailed: 11 exercises, concepts, examples)
+│
+├── 📁 level_1/
+│   └── 📄 README.md (Detailed: 23 exercises, patterns, tips)
+│
+└── 📁 level_2/ (and beyond...)
+    └── 📄 README.md (Coming soon)
+```
+
+**Each level README includes:**
+- ✅ Complete exercise descriptions
+- 💻 Compilation instructions
+- 🧪 Testing strategies
+- 💡 Key concepts & patterns
+- 📊 Complexity analysis
 
 ---
 
@@ -282,17 +262,17 @@ gcc -Wall -Wextra -Werror source.c -o program
 # Navigate to collection
 cd 42-piscine-practice
 
-# Choose your level
+# Choose a level
 cd level_0  # or level_1, level_2...
 
-# Read the detailed guide
+# Read detailed guide
 cat README.md
 
-# Compile any exercise
+# Compile with strict standards
 gcc -Wall -Wextra -Werror exercise.c -o exercise
 
-# Run it
-./exercise [args]
+# Run
+./exercise [arguments]
 ```
 
 ---
@@ -304,22 +284,31 @@ gcc -Wall -Wextra -Werror exercise.c -o exercise
 <table>
 <tr>
 <td align="center" width="33%">
-<h3>📚 Study</h3>
-Read requirements<br/>
-Understand concepts<br/>
-Plan solution
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Light%20Bulb.png" alt="Idea" width="50" />
+<h3>Understand</h3>
+<p>
+📖 Read requirements<br/>
+🧠 Grasp concepts<br/>
+📝 Plan approach<br/>
+</p>
 </td>
 <td align="center" width="33%">
-<h3>💻 Code</h3>
-Implement solution<br/>
-Test thoroughly<br/>
-Refine & optimize
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Keyboard.png" alt="Keyboard" width="50" />
+<h3>Implement</h3>
+<p>
+💻 Write clean code<br/>
+🧪 Test thoroughly<br/>
+🐛 Debug carefully<br/>
+</p>
 </td>
 <td align="center" width="33%">
-<h3>🔄 Reflect</h3>
-Try alternatives<br/>
-Compare approaches<br/>
-Document learnings
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="50" />
+<h3>Optimize</h3>
+<p>
+⚡ Refine solution<br/>
+📊 Compare methods<br/>
+📚 Document learnings<br/>
+</p>
 </td>
 </tr>
 </table>
@@ -328,28 +317,61 @@ Document learnings
 
 ---
 
-## 📚 Recommended Resources
+## 📚 Learning Resources
 
 <div align="center">
 
-### Official
+### Official Documentation
 
 [![42 Network](https://img.shields.io/badge/42-Network-000000?style=for-the-badge&logo=42)](https://www.42.fr/)
 [![Norminette](https://img.shields.io/badge/42-Norminette-success?style=for-the-badge)](https://github.com/42School/norminette)
 
-### References
+### Online References
 
-| Resource | Link |
-|:---------|:----:|
-| 📖 C Reference | [cppreference.com](https://en.cppreference.com/w/c) |
-| 📚 GNU C Library | [gnu.org/manual](https://www.gnu.org/software/libc/manual/) |
-| 🐧 Man Pages | [man7.org](https://man7.org/linux/man-pages/) |
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Books" width="40" />
+<br/><b>C Reference</b>
+<br/><a href="https://en.cppreference.com/w/c">cppreference.com</a>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Open%20Book.png" alt="Manual" width="40" />
+<br/><b>GNU C Library</b>
+<br/><a href="https://www.gnu.org/software/libc/manual/">gnu.org/manual</a>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" alt="Pages" width="40" />
+<br/><b>Man Pages</b>
+<br/><a href="https://man7.org/linux/man-pages/">man7.org</a>
+</td>
+</tr>
+</table>
 
-### Books
+### Recommended Books
 
-- **The C Programming Language** (K&R)
-- **C Programming: A Modern Approach**
-- **Expert C Programming: Deep C Secrets**
+<table>
+<tr>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Blue%20Book.png" alt="Book" width="30" />
+<b> The C Programming Language</b>
+<br/><sub>By Kernighan & Ritchie</sub>
+<br/><sub>⭐⭐⭐⭐⭐ Essential</sub>
+</td>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Green%20Book.png" alt="Book" width="30" />
+<b> C Programming: Modern</b>
+<br/><sub>By K. N. King</sub>
+<br/><sub>⭐⭐⭐⭐⭐ Comprehensive</sub>
+</td>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Orange%20Book.png" alt="Book" width="30" />
+<b> Expert C Programming</b>
+<br/><sub>By Peter van der Linden</sub>
+<br/><sub>⭐⭐⭐⭐⭐ Advanced</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -361,14 +383,30 @@ Document learnings
 
 ### Found This Helpful?
 
-⭐ **Star the repository** to show support!  
-🐛 **Report issues** to help improve  
-💡 **Share feedback** on solutions  
-📖 **Ask questions** if you're stuck  
-
----
-
-### Connect
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Star.png" alt="Star" width="40" />
+<br/><b>Star</b>
+<br/><sub>Show support</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Lady%20Beetle.png" alt="Bug" width="40" />
+<br/><b>Report</b>
+<br/><sub>Found issues</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Thought%20Balloon.png" alt="Idea" width="40" />
+<br/><b>Suggest</b>
+<br/><sub>Improvements</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Wave" width="40" />
+<br/><b>Share</b>
+<br/><sub>With others</sub>
+</td>
+</tr>
+</table>
 
 [![GitHub](https://img.shields.io/badge/GitHub-said--boutayeb-181717?style=for-the-badge&logo=github)](https://github.com/said-boutayeb)
 
@@ -384,6 +422,8 @@ This collection follows the [42 Unlicense](https://github.com/gcamerli/42unlicen
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Flexed%20Biceps.png" alt="Strong" width="40" />
+
 **"Programs must be written for people to read, and only incidentally for machines to execute."**  
 *- Harold Abelson*
 
@@ -392,5 +432,7 @@ This collection follows the [42 Unlicense](https://github.com/gcamerli/42unlicen
 [⬅️ Back to Main Repository](../README.md)
 
 *Last Updated: October 2025*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer" />
 
 </div>
