@@ -75,16 +75,35 @@ This repository is a **living documentation** of my journey in mastering C progr
 
 <div align="center">
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+### Development Environment
 
-**Development Standards**
-- 🔹 Language: C (C99/C11)
-- 🔹 Compiler: GCC with `-Wall -Wextra -Werror`
-- 🔹 Style: 42 Norminette
-- 🔹 Platform: Linux/Unix
+<table>
+<tr>
+<td align="center" width="25%">
+<img width="50" src="https://user-images.githubusercontent.com/25181517/192106070-46255bcf-65e6-4c6b-a296-bf8d0d8fb2a7.png" alt="C" title="C"/>
+<br/><b>C Language</b>
+<br/><sub>C99/C11</sub>
+</td>
+<td align="center" width="25%">
+<img width="50" src="https://user-images.githubusercontent.com/25181517/192108891-d86b6220-e232-423a-bf5f-90903e6887c3.png" alt="Linux" title="Linux"/>
+<br/><b>Linux</b>
+<br/><sub>Unix Environment</sub>
+</td>
+<td align="center" width="25%">
+<img width="50" src="https://user-images.githubusercontent.com/25181517/192108374-8da61ba1-99ec-41d7-80b8-fb2f7c0a4948.png" alt="GitHub" title="GitHub"/>
+<br/><b>GitHub</b>
+<br/><sub>Version Control</sub>
+</td>
+<td align="center" width="25%">
+<img width="50" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/>
+<br/><b>Git</b>
+<br/><sub>Source Control</sub>
+</td>
+</tr>
+</table>
+
+**Compilation Standards**  
+`gcc -Wall -Wextra -Werror` | 42 Norminette | Memory Safe | Edge Cases Tested
 
 </div>
 
@@ -175,14 +194,31 @@ Each collection has its own comprehensive documentation:
 
 <div align="center">
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   📚 Study   │ ──→ │  💻 Practice │ ──→ │  🔄 Refine  │
-│              │     │              │     │              │
-│ Understand   │     │ Implement    │     │  Optimize   │
-│  Concepts    │     │  Solutions   │     │   & Learn   │
-└──────────────┘     └──────────────┘     └──────────────┘
-```
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=The%20only%20way%20to%20learn%20programming%20is%20by%20writing%20programs&author=Dennis%20Ritchie" />
+
+<br/><br/>
+
+### My Approach to Mastery
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Books" width="50" />
+<h4>📖 Study</h4>
+<p><sub>Understand concepts deeply<br/>Research best practices<br/>Learn from others</sub></p>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="50" />
+<h4>💻 Practice</h4>
+<p><sub>Write code daily<br/>Solve real problems<br/>Build projects</sub></p>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="50" />
+<h4>📈 Improve</h4>
+<p><sub>Refactor solutions<br/>Optimize performance<br/>Document learnings</sub></p>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -255,11 +291,11 @@ Each collection has its own comprehensive documentation:
 
 ---
 
-### GitHub Stats
+### GitHub Activity
 
-![Stats](https://github-readme-stats.vercel.app/api?username=said-boutayeb&show_icons=true&theme=radical&hide_border=true)
+![Stats](https://github-readme-streak-stats.herokuapp.com/?user=said-boutayeb&theme=radical&hide_border=true)
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=said-boutayeb&layout=compact&theme=radical&hide_border=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=said-boutayeb&theme=react-dark&hide_border=true&area=true)
 
 </div>
 
