@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🚀 Level 1 - Core Concepts
+# Level 1 - Core Concepts
 
-### *Mastering String Operations & Algorithm Foundations*
+*String Operations & Algorithm Foundations*
 
-[![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange?style=for-the-badge)]()
-[![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)]()
-[![Exercises](https://img.shields.io/badge/Exercises-23/23-blue?style=for-the-badge)]()
+[![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)]()
+[![Exercises](https://img.shields.io/badge/Exercises-23/23-blue?style=flat-square)]()
 
-![Progress](https://progress-bar.dev/100/?title=Level%201%20Progress&width=500&color=4CAF50)
+![Progress](https://progress-bar.dev/100/?title=Level%201%20Completion&width=500&color=4CAF50)
 
 </div>
 
@@ -18,92 +18,90 @@
 
 Level 1 builds upon Level 0 fundamentals and introduces **string manipulation**, **algorithm implementation**, and **cipher techniques**. This level emphasizes understanding pointers, recreating standard library functions, and exploring multiple solution approaches.
 
-<div align="center">
-
-### 🎯 Key Focus Areas
-
-| Category | Topics |
-|:---------|:-------|
-| **String Functions** | ft_strlen, ft_strcpy, ft_putstr |
-| **Algorithms** | FizzBuzz, first_word, search_and_replace |
-| **Ciphers** | ROT13, ROT1 (rotone) |
-| **String Processing** | repeat_alpha, rev_print, ulstr |
-| **Pointers** | ft_swap, memory manipulation |
-
-</div>
+**Focus Areas:** String Functions | Algorithms | Ciphers | Pointers
 
 ---
 
 ## 📚 Exercise Catalog
 
+### Complete List (23 Exercises)
+
 <details open>
-<summary><h3>📖 Complete Exercise List (23 Total)</h3></summary>
+<summary><b>🔤 String Functions (6 exercises)</b></summary>
 
-<br/>
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `first_word.c` | Extract first word from string | String parsing, whitespace |
+| `ft_putstr.c` | Implement string output | String iteration, write() |
+| `ft_strcpy.c` | Implement string copy | Pointers, string manipulation |
+| `ft_strlen.c` | Implement string length | Pointer arithmetic |
+| `search_and_replace.c` (md_1) | Replace character in string | Character search & replace |
+| `search_and_replace.c` (md_2) | Alternative implementation | Different approach |
 
-<div align="center">
+</details>
 
-| # | Exercise | Type | Concepts |
-|:-:|:---------|:----:|:---------|
-| 1 | `first_word.c` | 🔤 | String parsing, whitespace |
-| 2 | `fizzbuzz.c` | 🎲 | Conditionals, modulo |
-| 3 | `ft_putstr.c` | ⚙️ | String output, write() |
-| 4 | `ft_strcpy.c` | ⚙️ | String copy, pointers |
-| 5 | `ft_strlen.c` | ⚙️ | String length, iteration |
-| 6 | `ft_swap.c` | ⚙️ | Swap, pass-by-reference |
-| 7-9 | `md_[1-3]_repeat_alpha.c` | 🔤 | Character repetition (3 methods) |
-| 10-12 | `md_[1-3]_rev_print.c` | 🔤 | String reversal (3 methods) |
-| 13-14 | `md_[1-2]_rot_13.c` | 🔐 | ROT13 cipher (2 methods) |
-| 15-17 | `md_[1-3]_rotone.c` | 🔐 | ROT1 cipher (3 methods) |
-| 18-20 | `md_[1-3]_ulstr.c` | 🔤 | Case toggle (3 methods) |
-| 21-22 | `md_[1-2]_search_and_replace.c` | 🔍 | Character replacement (2 methods) |
+<details open>
+<summary><b>🎲 Algorithms (2 exercises)</b></summary>
 
-**Legend:** ⚙️ Function | 🔤 String | 🔐 Cipher | 🎲 Algorithm | 🔍 Search
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `fizzbuzz.c` | Classic FizzBuzz algorithm | Conditionals, modulo |
+| `ft_swap.c` | Swap two integers | Pointers, pass-by-reference |
 
-</div>
+</details>
+
+<details open>
+<summary><b>🔐 Ciphers (8 exercises)</b></summary>
+
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `rot_13.c` (md_1) | ROT13 cipher - Method 1 | Character rotation |
+| `rot_13.c` (md_2) | ROT13 cipher - Method 2 | Alternative approach |
+| `rotone.c` (md_1) | ROT1 cipher - Method 1 | Character shifting |
+| `rotone.c` (md_2) | ROT1 cipher - Method 2 | Different implementation |
+| `rotone.c` (md_3) | ROT1 cipher - Method 3 | Third approach |
+| `ulstr.c` (md_1) | Toggle case - Method 1 | Case manipulation |
+| `ulstr.c` (md_2) | Toggle case - Method 2 | Alternative method |
+| `ulstr.c` (md_3) | Toggle case - Method 3 | Third variant |
+
+</details>
+
+<details open>
+<summary><b>🔄 String Manipulation (9 exercises)</b></summary>
+
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `repeat_alpha.c` (md_1) | Repeat alphabet chars - Method 1 | Character repetition |
+| `repeat_alpha.c` (md_2) | Repeat alphabet chars - Method 2 | Alternative logic |
+| `repeat_alpha.c` (md_3) | Repeat alphabet chars - Method 3 | Third approach |
+| `rev_print.c` (md_1) | Reverse print - Method 1 | String reversal |
+| `rev_print.c` (md_2) | Reverse print - Method 2 | Different reversal |
+| `rev_print.c` (md_3) | Reverse print - Method 3 | Third method |
+| (3 more variations across different exercises) | | |
 
 </details>
 
 ---
 
-## 🎓 Learning Objectives
+## 🎯 Learning Objectives
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🧠 Technical Skills
-
+### Technical Skills
 - ✅ String manipulation mastery
-- ✅ Pointer operations & memory
-- ✅ Standard library recreation
+- ✅ Pointer operations & memory management
+- ✅ Standard library function recreation
 - ✅ Cipher algorithm implementation
 - ✅ Multiple solution approaches
 
-</td>
-<td width="50%">
-
-### 🎯 Problem-Solving
-
+### Problem-Solving
 - ✅ Algorithm design patterns
 - ✅ Edge case handling
 - ✅ Code optimization techniques
 - ✅ Debugging strategies
 - ✅ Testing methodologies
 
-</td>
-</tr>
-</table>
-
-</div>
-
 ---
 
-## 🛠️ Compilation Guide
-
-<div align="center">
+## 🛠️ Compilation & Testing
 
 ### Standard Compilation
 
@@ -111,107 +109,64 @@ Level 1 builds upon Level 0 fundamentals and introduces **string manipulation**,
 gcc -Wall -Wextra -Werror exercise.c -o exercise
 ```
 
-</div>
+### Exercise Types
 
-### Exercise Types & Compilation
+**1. Function Implementations** (ft_strlen, ft_strcpy, ft_putstr, ft_swap)
 
-<details>
-<summary><b>⚙️ Function Implementations</b> (ft_strlen, ft_strcpy, ft_putstr, ft_swap)</summary>
-
-<br/>
-
-These exercises implement functions without a main. You need to create your own test file.
+These implement functions without a main. Create your own test file:
 
 ```bash
-# Create test_main.c with your tests
 gcc -Wall -Wextra -Werror ft_strlen.c test_main.c -o test
 ./test
 ```
 
 **Testing Tips:**
 - Test empty strings: `""`
-- Test normal strings: `"Hello"`
-- Test long strings
-- Compare with standard library behavior
+- Test normal cases: `"Hello"`
+- Test edge cases: long strings, NULL
+- Compare with standard library
 
-</details>
-
-<details>
-<summary><b>🔤 Command-Line Programs</b> (first_word, rot_13, rotone, etc.)</summary>
-
-<br/>
-
-These exercises take command-line arguments.
+**2. Command-Line Programs** (first_word, rot_13, rotone, etc.)
 
 ```bash
-# Compile
 gcc -Wall -Wextra -Werror first_word.c -o first_word
-
-# Test with arguments
 ./first_word "Hello World"
-./first_word "   spaces   test"
-./first_word ""
+./first_word "   spaces"
 ```
 
 **Testing Tips:**
 - Test with no arguments
 - Test with empty string
-- Test with special characters
-- Test edge cases
+- Test special characters
+- Test boundary conditions
 
-</details>
-
-<details>
-<summary><b>🎲 Standalone Programs</b> (fizzbuzz)</summary>
-
-<br/>
-
-These exercises have their own main and run without arguments.
+**3. Standalone Programs** (fizzbuzz)
 
 ```bash
 gcc -Wall -Wextra -Werror fizzbuzz.c -o fizzbuzz
 ./fizzbuzz
 ```
 
-</details>
-
 ---
 
 ## 💡 Key Concepts
 
-<div align="center">
+### String Operations
 
-### 🔤 String Operations
+**Core Understanding:**
+- Strings are null-terminated: `"Hi"` → `['H','i','\0']`
+- Always check for `\0`
+- Mind buffer boundaries
 
-</div>
-
-**Fundamental Understanding:**
-- Strings are null-terminated arrays: `"Hello"` → `['H','e','l','l','o','\0']`
-- Always iterate until `\0`
-- Watch for buffer boundaries
-
-**Common Patterns:**
+**Common Pattern:**
 ```c
-// Iteration pattern
 while (str[i])
     i++;
-
-// Safe copying
-while (src[i])
-{
-    dest[i] = src[i];
-    i++;
-}
-dest[i] = '\0';
 ```
 
-<div align="center">
+### Pointers
 
-### 🎯 Pointers
-
-</div>
-
-**Key Concepts:**
+**Essential Concepts:**
 - `int *ptr` → pointer to integer
 - `*ptr` → dereference (get value)
 - `&var` → get address
@@ -219,111 +174,82 @@ dest[i] = '\0';
 
 **Example:**
 ```c
-void ft_swap(int *a, int *b)
-{
-    int tmp = *a;  // Get value at address a
-    *a = *b;       // Set value at address a
-    *b = tmp;      // Set value at address b
+void ft_swap(int *a, int *b) {
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
 }
 ```
 
-<div align="center">
+### Cipher Algorithms
 
-### 🔐 Cipher Algorithms
-
-</div>
-
-**ROT13 (Rotate by 13):**
-- Encryption = Decryption (13 + 13 = 26)
+**ROT13:** Rotate by 13 positions
+- Encryption = Decryption
 - `A → N`, `N → A`
-- Only affects letters
 
-**ROT1 (Rotate by 1):**
+**ROT1:** Rotate by 1 position
 - Simple Caesar cipher
 - `a → b`, `z → a`
-- Wraps around alphabet
 
 ---
 
 ## 📊 Complexity Analysis
 
-<div align="center">
-
 | Exercise | Time | Space | Notes |
 |:---------|:----:|:-----:|:------|
-| **ft_strlen** | O(n) | O(1) | Linear scan |
-| **ft_strcpy** | O(n) | O(1) | Linear copy |
-| **ft_swap** | O(1) | O(1) | Constant time |
-| **fizzbuzz** | O(1) | O(1) | Fixed iterations (100) |
-| **repeat_alpha** | O(n·m) | O(1) | m = repetition count |
-| **rot_13** | O(n) | O(1) | Single pass |
-| **search_replace** | O(n) | O(1) | Single pass |
+| ft_strlen | O(n) | O(1) | Linear scan |
+| ft_strcpy | O(n) | O(1) | Single pass |
+| ft_swap | O(1) | O(1) | Constant |
+| fizzbuzz | O(1) | O(1) | Fixed 100 iterations |
+| repeat_alpha | O(n·m) | O(1) | m = repetition count |
+| rot_13 | O(n) | O(1) | Single pass |
+| search_replace | O(n) | O(1) | Single pass |
 
 *n = string length*
-
-</div>
 
 ---
 
 ## ✅ Quality Standards
 
-<div align="center">
-
-| Standard | Requirement | Status |
-|:---------|:------------|:------:|
-| **Compilation** | No warnings with strict flags | ✅ |
-| **Norminette** | 42 coding standards | ✅ |
-| **Memory** | No leaks, safe operations | ✅ |
-| **Edge Cases** | NULL, empty strings, boundaries | ✅ |
-| **Testing** | Multiple test scenarios | ✅ |
-
-</div>
+| Standard | Status |
+|:---------|:------:|
+| No warnings with `-Wall -Wextra -Werror` | ✅ |
+| 42 Norminette compliant | ✅ |
+| Memory leak free | ✅ |
+| Edge cases handled | ✅ |
+| Multiple test scenarios | ✅ |
 
 ---
 
-## 🎯 Multiple Solution Approaches
+## 🎯 Multiple Solutions Philosophy
 
 **Why 3 methods (md_1, md_2, md_3)?**
 
 Each method demonstrates different approaches:
-- **Method 1:** Often most straightforward
+- **Method 1:** Usually most straightforward
 - **Method 2:** Alternative logic or optimization
-- **Method 3:** Different perspective or technique
+- **Method 3:** Different perspective
 
 **Benefits:**
-- 🧠 Understand there's no single "right" way
-- ⚡ Compare efficiency and readability
-- 🎓 Learn different problem-solving strategies
-- 🔄 Practice refactoring and optimization
+- 🧠 No single "right" way
+- ⚡ Compare efficiency
+- 🎓 Learn different strategies
+- 🔄 Practice refactoring
 
 ---
 
 ## 🚀 Next Steps
 
-<div align="center">
-
-### After Level 1, you're ready for:
-
-```
-Level 2  →  More complex algorithms & data manipulation
-Level 3  →  Advanced concepts, recursion, linked lists
-Beyond   →  Data structures, algorithms, system programming
-```
-
-</div>
+After Level 1:
+- **Level 2** → Complex algorithms & data manipulation
+- **Level 3** → Advanced concepts & recursion
+- **Beyond** → Data structures & system programming
 
 ---
 
-## 💡 Pro Tips
+## 💡 Tips for Success
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 Study Strategies
-
+### Study Strategies
 1. **Understand Before Coding**
    - Read requirements carefully
    - Plan your approach
@@ -334,13 +260,9 @@ Beyond   →  Data structures, algorithms, system programming
    - Try boundary values
    - Check error conditions
 
-</td>
-<td width="50%">
-
-### ⚡ Optimization Tips
-
+### Optimization Tips
 1. **Compare Your Methods**
-   - Look at md_1, md_2, md_3
+   - Study md_1, md_2, md_3
    - Which is more efficient?
    - Which is more readable?
 
@@ -349,48 +271,32 @@ Beyond   →  Data structures, algorithms, system programming
    - Use printf/gdb
    - Understand each error
 
-</td>
-</tr>
-</table>
-
-</div>
-
 ---
 
-## 📚 Additional Resources
-
-<div align="center">
+## 📚 Resources
 
 | Resource | Link |
 |:---------|:----:|
-| 🔗 **Pointers in C** | [cppreference.com](https://en.cppreference.com/w/c/language/pointer) |
-| 🔗 **String Functions** | [cppreference.com](https://en.cppreference.com/w/c/string/byte) |
-| 🔗 **Caesar Cipher** | [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher) |
-| 🔗 **ROT13** | [Wikipedia](https://en.wikipedia.org/wiki/ROT13) |
-| 🔗 **FizzBuzz** | [Wikipedia](https://en.wikipedia.org/wiki/Fizz_buzz) |
-
-</div>
+| 🔗 Pointers in C | [cppreference.com](https://en.cppreference.com/w/c/language/pointer) |
+| 🔗 String Functions | [cppreference.com](https://en.cppreference.com/w/c/string/byte) |
+| 🔗 Caesar Cipher | [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher) |
+| 🔗 ROT13 | [Wikipedia](https://en.wikipedia.org/wiki/ROT13) |
+| 🔗 FizzBuzz | [Wikipedia](https://en.wikipedia.org/wiki/Fizz_buzz) |
 
 ---
 
 <div align="center">
 
-## 🎉 Congratulations!
+## 🎉 Level 1 Complete!
 
-**You've completed Level 1!**
-
-You now have a solid foundation in string manipulation, pointers, and basic algorithms.  
-Keep this momentum going into Level 2! 💪
+You now have a solid foundation in string manipulation, pointers, and algorithms.  
+Ready for Level 2! 💪
 
 ---
 
 ### Navigation
 
-[![Level 0](https://img.shields.io/badge/←-Level%200-blue?style=for-the-badge)](../level_0/README.md)
-[![42 Piscine](https://img.shields.io/badge/↑-42%20Piscine-purple?style=for-the-badge)](../README.md)
-[![Level 2](https://img.shields.io/badge/Level%202-→-orange?style=for-the-badge)](#)
-
----
+[⬅️ Level 0](../level_0/README.md) | [⬆️ 42 Piscine](../README.md) | [➡️ Level 2](../level_2/)
 
 *Last Updated: October 2025*
 
