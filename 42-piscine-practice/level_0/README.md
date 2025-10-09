@@ -1,119 +1,251 @@
-# Level 0 - Fundamentals 🌱
+<div align="center">
 
-Welcome to Level 0! This collection focuses on the absolute fundamentals of C programming. These exercises are designed to build a solid foundation in basic I/O operations, character manipulation, and understanding how programs interact with the command line.
+# Level 0 - Fundamentals
+
+*Basic I/O & Command-Line Foundations*
+
+[![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-brightgreen?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)]()
+[![Exercises](https://img.shields.io/badge/Exercises-11/11-blue?style=flat-square)]()
+
+![Progress](https://progress-bar.dev/100/?title=Level%200%20Completion&width=500&color=4CAF50)
+
+</div>
+
+---
 
 ## 📋 Overview
 
-**Difficulty:** Beginner  
-**Total Exercises:** 11  
-**Completion:** 11/11 ✅  
-**Focus Areas:** Basic output, character operations, command-line arguments
+Level 0 focuses on the absolute fundamentals of C programming. These exercises build a solid foundation in basic I/O operations, character manipulation, and understanding how programs interact with the command line.
 
-## 📚 Exercise List
+**Focus Areas:** Basic Output | Character Operations | Command-Line Arguments
 
-| # | Exercise | Description | Concepts | Status |
-|---|----------|-------------|----------|--------|
-| 1 | `aff_a.c` | Display the character 'a' | Basic output with `write()` | ✅ |
-| 2 | `aff_first_param.c` | Display first command-line argument | argc/argv, parameter handling | ✅ |
-| 3 | `aff_last_param.c` | Display last command-line argument | Array indexing, argc | ✅ |
-| 4 | `aff_z.c` | Display the character 'z' | Basic output | ✅ |
-| 5 | `ft_countdown.c` | Print countdown from 9 to 0 | Loops, digit output | ✅ |
-| 6 | `ft_print_numbers.c` | Print digits 0 to 9 | Loops, character conversion | ✅ |
-| 7 | `hello.c` | Display "Hello World!" | String output | ✅ |
-| 8 | `maff_alpha.c` | Print alphabet (alternating case) | ASCII manipulation, loops | ✅ |
-| 9 | `maff_revalpha.c` | Print reverse alphabet (alternating) | Reverse iteration, case control | ✅ |
-| 10 | `only_a.c` | Display only 'a' from input | Character filtering | ✅ |
-| 11 | `only_z.c` | Display only 'z' from input | Character filtering | ✅ |
+---
+
+## 📚 Exercise Catalog
+
+### Complete List (11 Exercises)
+
+<details open>
+<summary><b>📝 Basic Output (4 exercises)</b></summary>
+
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `aff_a.c` | Display the character 'a' | Basic output with write() |
+| `aff_z.c` | Display the character 'z' | Basic output |
+| `hello.c` | Display "Hello World!" | String output |
+| `only_z.c` | Display only 'z' characters | Character filtering |
+
+</details>
+
+<details open>
+<summary><b>🔢 Number Printing (2 exercises)</b></summary>
+
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `ft_countdown.c` | Print countdown from 9 to 0 | Loops, digit output |
+| `ft_print_numbers.c` | Print digits 0 to 9 | Loops, character conversion |
+
+</details>
+
+<details open>
+<summary><b>📋 Command-Line Arguments (2 exercises)</b></summary>
+
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `aff_first_param.c` | Display first command-line argument | argc/argv, parameter handling |
+| `aff_last_param.c` | Display last command-line argument | Array indexing, argc |
+
+</details>
+
+<details open>
+<summary><b>🔤 Alphabet Manipulation (3 exercises)</b></summary>
+
+| Exercise | Description | Concepts |
+|:---------|:------------|:---------|
+| `maff_alpha.c` | Print alphabet (alternating case) | ASCII manipulation, loops |
+| `maff_revalpha.c` | Print reverse alphabet (alternating) | Reverse iteration, case control |
+| `only_a.c` | Display only 'a' from input | Character filtering |
+
+</details>
+
+---
 
 ## 🎯 Learning Objectives
 
-By completing Level 0, you will master:
+### Technical Skills
+- ✅ `write()` system call mastery
+- ✅ Command-line argument handling
+- ✅ Character operations & ASCII
+- ✅ Loop control structures
+- ✅ Basic string output
 
-### Core Concepts
-- **`write()` System Call**: Understanding low-level output operations
-- **Command-Line Arguments**: Using `argc` and `argv` effectively
-- **Character Operations**: ASCII values and character manipulation
-- **Loop Control**: For and while loops for iteration
-- **String Handling**: Basic string output and manipulation
+### Problem-Solving
+- ✅ Understanding program structure
+- ✅ Edge case handling (empty input)
+- ✅ Clean code practices
+- ✅ Following compilation standards
 
-### Programming Skills
-- Writing programs without using `printf()`
-- Converting numbers to characters
-- Handling edge cases (empty input, no arguments)
-- Following strict compilation standards
-- Writing clean, readable code
+---
 
 ## 🛠️ Compilation & Testing
 
 ### Standard Compilation
+
 ```bash
-gcc -Wall -Wextra -Werror exercise_name.c -o exercise_name
+gcc -Wall -Wextra -Werror exercise.c -o exercise
 ```
 
-### Individual Exercise Examples
+### Exercise Types
 
-#### Example 1: hello.c
+**1. Basic Output Programs** (aff_a, aff_z, hello)
+
 ```bash
 gcc -Wall -Wextra -Werror hello.c -o hello
 ./hello
 # Output: Hello World!
 ```
 
-#### Example 2: aff_first_param.c
-```bash
-gcc -Wall -Wextra -Werror aff_first_param.c -o aff_first_param
-./aff_first_param test
-# Output: test
-./aff_first_param
-# Output: (newline only)
-```
+**Testing Tips:**
+- Verify exact output
+- Check for newline handling
+- No extra spaces or characters
 
-#### Example 3: ft_countdown.c
+**2. Number Printing** (ft_countdown, ft_print_numbers)
+
 ```bash
 gcc -Wall -Wextra -Werror ft_countdown.c -o ft_countdown
 ./ft_countdown
 # Output: 9876543210
+
+gcc -Wall -Wextra -Werror ft_print_numbers.c -o ft_print_numbers
+./ft_print_numbers
+# Output: 0123456789
 ```
 
-#### Example 4: maff_alpha.c
+**Testing Tips:**
+- Check order is correct
+- Verify newline at end
+- No spaces between digits
+
+**3. Command-Line Arguments** (aff_first_param, aff_last_param)
+
+```bash
+gcc -Wall -Wextra -Werror aff_first_param.c -o aff_first_param
+./aff_first_param Hello World
+# Output: Hello
+
+./aff_first_param
+# Output: (newline only)
+```
+
+**Testing Tips:**
+- Test with no arguments
+- Test with multiple arguments
+- Test with empty strings
+- Test with special characters
+
+**4. Alphabet Manipulation** (maff_alpha, maff_revalpha)
+
 ```bash
 gcc -Wall -Wextra -Werror maff_alpha.c -o maff_alpha
 ./maff_alpha
 # Output: aBcDeFgHiJkLmNoPqRsTuVwXyZ
+
+gcc -Wall -Wextra -Werror maff_revalpha.c -o maff_revalpha
+./maff_revalpha
+# Output: zYxWvUtSrQpOnMlKjIhGfEdCbA
 ```
 
-## 💡 Key Techniques Used
+**Testing Tips:**
+- Verify case alternation
+- Check alphabet order
+- Confirm newline handling
 
-### 1. Using `write()` Instead of `printf()`
+---
+
+## 💡 Key Concepts
+
+### Using `write()` System Call
+
+**Core Understanding:**
+- `write()` is a low-level I/O function
+- Format: `write(fd, buffer, count)`
+- `fd = 1` for standard output
+
+**Example:**
 ```c
 #include <unistd.h>
 
-write(1, "Hello", 5);  // fd=1 (stdout), buffer, length
+write(1, "Hello", 5);  // Write 5 bytes to stdout
+write(1, "\n", 1);     // Write newline
 ```
 
-### 2. Converting Numbers to Characters
-```c
-char c = digit + '0';  // Convert 5 to '5' (ASCII 53)
-```
+### Command-Line Arguments
 
-### 3. Accessing Command-Line Arguments
+**Essential Concepts:**
+- `argc` = argument count
+- `argv` = argument vector (array of strings)
+- `argv[0]` = program name
+- `argv[1]` = first argument
+
+**Example:**
 ```c
 int main(int argc, char **argv)
 {
     if (argc > 1)
         // argv[1] is first argument
+    return (0);
 }
 ```
 
-### 4. Character Case Manipulation
+### Character & ASCII Operations
+
+**Key Points:**
+- Characters are numbers (ASCII values)
+- `'0'` has ASCII value 48
+- `'A'` = 65, `'a'` = 97
+- Case conversion: `'A' + 32 = 'a'`
+
+**Example:**
 ```c
-char lower = 'A' + 32;  // Convert uppercase to lowercase
-char upper = 'a' - 32;  // Convert lowercase to uppercase
+char digit = 5 + '0';  // Convert 5 to '5' (ASCII 53)
+char lower = 'A' + 32; // Convert 'A' to 'a'
 ```
 
-## 🔍 Common Patterns
+---
+
+## 📊 Complexity Analysis
+
+| Exercise | Time | Space | Notes |
+|:---------|:----:|:-----:|:------|
+| aff_a | O(1) | O(1) | Single character output |
+| hello | O(1) | O(1) | Fixed string output |
+| ft_countdown | O(1) | O(1) | Fixed 10 iterations |
+| ft_print_numbers | O(1) | O(1) | Fixed 10 iterations |
+| aff_first_param | O(n) | O(1) | n = argument length |
+| maff_alpha | O(1) | O(1) | Fixed 26 letters |
+
+*n = string length*
+
+---
+
+## ✅ Quality Standards
+
+| Standard | Status |
+|:---------|:------:|
+| No warnings with `-Wall -Wextra -Werror` | ✅ |
+| 42 Norminette compliant | ✅ |
+| Proper error handling | ✅ |
+| Edge cases covered | ✅ |
+| Clean, readable code | ✅ |
+
+---
+
+## 🎯 Common Patterns
 
 ### Pattern 1: Single Character Output
+
 ```c
 #include <unistd.h>
 
@@ -125,12 +257,14 @@ int main(void)
 ```
 
 ### Pattern 2: Loop-Based Output
+
 ```c
 #include <unistd.h>
 
 int main(void)
 {
     char c = '0';
+    
     while (c <= '9')
     {
         write(1, &c, 1);
@@ -142,6 +276,7 @@ int main(void)
 ```
 
 ### Pattern 3: Argument Handling
+
 ```c
 #include <unistd.h>
 
@@ -162,53 +297,78 @@ int main(int argc, char **argv)
 }
 ```
 
-## 📊 Complexity Analysis
-
-| Exercise | Time Complexity | Space Complexity |
-|----------|----------------|------------------|
-| aff_a | O(1) | O(1) |
-| aff_first_param | O(n) | O(1) |
-| ft_countdown | O(1) | O(1) |
-| ft_print_numbers | O(1) | O(1) |
-| maff_alpha | O(1) | O(1) |
-
-*where n = length of input string*
-
-## ✅ Best Practices Applied
-
-- ✅ No memory leaks
-- ✅ Proper error handling
-- ✅ Edge cases considered
-- ✅ Clean, readable code
-- ✅ Efficient algorithms
-- ✅ Proper use of `write()`
-- ✅ Compilation with strict flags
+---
 
 ## 🚀 Next Steps
 
-After mastering Level 0, you're ready for:
-- **Level 1**: More complex string operations and basic algorithms
-- **Level 2**: Advanced string manipulation and data structures
-- **Level 3**: Algorithm implementation and optimization
-
-## 📝 Notes
-
-- All exercises compile without warnings using `-Wall -Wextra -Werror`
-- Solutions prioritize clarity and correctness
-- Each solution is optimized for the specific problem requirements
-- Code follows consistent styling and formatting
-
-## 🤝 Tips for Success
-
-1. **Understand `write()`**: Master the low-level I/O function
-2. **Practice ASCII**: Know how to convert between characters and numbers
-3. **Test Edge Cases**: Empty strings, no arguments, special characters
-4. **Read Man Pages**: `man write`, `man ascii` for reference
-5. **Start Simple**: Understand basics before moving to complex solutions
+After Level 0:
+- **Level 1** → String functions & algorithms
+- **Level 2** → Advanced string manipulation
+- **Level 3** → Complex algorithms & data structures
 
 ---
 
-**Congratulations on completing Level 0! 🎉**  
-You've built a strong foundation in C fundamentals. Keep going!
+## 💡 Tips for Success
 
-[⬅️ Back to 42 Piscine Practice](../README.md) | [➡️ Next: Level 1](../level_1/README.md)
+### Study Strategies
+1. **Understand `write()`**
+   - Master the low-level I/O function
+   - Know the three parameters
+   - Practice with different outputs
+
+2. **Practice ASCII**
+   - Know how to convert numbers to characters
+   - Understand character values
+   - Learn case conversion tricks
+
+3. **Test Edge Cases**
+   - Empty strings
+   - No arguments
+   - Special characters
+   - Boundary values
+
+### Best Practices
+1. **Start Simple**
+   - Understand basics thoroughly
+   - Don't rush to complex solutions
+   - Build confidence gradually
+
+2. **Read Man Pages**
+   - `man write` for system calls
+   - `man ascii` for character values
+   - Understanding is key
+
+3. **Debug Systematically**
+   - Use printf for debugging
+   - Check each step
+   - Understand each error
+
+---
+
+## 📚 Resources
+
+| Resource | Link |
+|:---------|:----:|
+| 🔗 write() System Call | [man7.org](https://man7.org/linux/man-pages/man2/write.2.html) |
+| 🔗 ASCII Table | [asciitable.com](https://www.asciitable.com/) |
+| 🔗 Command-Line Args | [cppreference.com](https://en.cppreference.com/w/c/language/main_function) |
+| 🔗 C Basics | [learn-c.org](https://www.learn-c.org/) |
+
+---
+
+<div align="center">
+
+## 🎉 Level 0 Complete!
+
+**Congratulations!** You've built a strong foundation in C fundamentals.  
+Ready for Level 1! 🚀
+
+---
+
+### Navigation
+
+[⬆️ 42 Piscine](../README.md) | [➡️ Level 1](../level_1/README.md)
+
+*Last Updated: October 2025*
+
+</div>
