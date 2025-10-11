@@ -23,7 +23,7 @@
 |:---------------:|:----------------:|:----------------:|:-------------:|:-----------------:|
 | 1 | 34+ | 100% | C | Level 2 |
 
-![Progress](https://progress-bar.dev/67/?title=Overall%20Progress&width=500&color=4CAF50)
+![Progress](https://progress-bar.dev/72/?title=Overall%20Progress&width=500&color=4CAF50)
 
 </div>
 

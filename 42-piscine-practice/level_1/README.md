@@ -285,7 +285,13 @@ After Level 1:
 
 ---
 
-<div align="center">
+## 📄 Exercise Subjects
+
+All exercise requirements and specifications:
+
+📥 **[Download Level 1 Subjects (PDF)](level_1.pdf)**
+
+---
 
 ## 🎉 Level 1 Complete!
 

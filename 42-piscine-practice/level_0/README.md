@@ -356,7 +356,13 @@ After Level 0:
 
 ---
 
-<div align="center">
+## 📄 Exercise Subjects
+
+All exercise requirements and specifications:
+
+📥 **[Download Level 0 Subjects (PDF)](level_0.pdf)**
+
+---
 
 ## 🎉 Level 0 Complete!
 
