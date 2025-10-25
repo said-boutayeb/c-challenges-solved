@@ -7,8 +7,7 @@
 [![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange?style=flat-square)]()
 [![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)]()
 [![Exercises](https://img.shields.io/badge/Exercises-23/23-blue?style=flat-square)]()
-
-![Progress](https://progress-bar.dev/100/?title=Level%201%20Completion&width=500&color=4CAF50)
+[![Progress](https://img.shields.io/badge/Progress-100%25-success?style=flat-square)]()
 
 </div>
 
