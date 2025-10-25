@@ -60,7 +60,7 @@ Level 0 (Foundation) → Level 1 (Core Skills) → Level 2 (Advanced) → Level 
 
 <div align="center">
 
-**Completed:** 34 Exercises | **In Progress:** Level 2 | **Success Rate:** 100%
+**Completed:** 34 Exercises | **In Progress:** Level 2 (9 exercises) | **Success Rate:** 100%
 
 </div>
 

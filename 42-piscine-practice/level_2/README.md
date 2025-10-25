@@ -6,9 +6,9 @@
 
 [![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate%2B-orange?style=flat-square)]()
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square)]()
-[![Exercises](https://img.shields.io/badge/Exercises-5-blue?style=flat-square)]()
+[![Exercises](https://img.shields.io/badge/Exercises-9-blue?style=flat-square)]()
 
-![Progress](https://progress-bar.dev/40/?title=Level%202%20Completion&width=500&color=FFC107)
+![Progress](https://progress-bar.dev/60/?title=Level%202%20Progress&width=500&color=FFC107)
 
 </div>
 
@@ -18,21 +18,33 @@
 
 Level 2 introduces more advanced data manipulation, complex string algorithms, and mathematical operations. These exercises build upon string fundamentals and require deeper understanding of algorithm design and data processing.
 
-**Focus Areas:** String Comparison | Number Conversion | Character Operations | Algorithm Design
+**Focus Areas:** String Comparison | Number Conversion | Character Operations | String Functions
 
 ---
 
 ## 📚 Exercise Catalog
 
-### Complete List (5 Exercises)
+### Complete List (9 Exercises)
 
 <details open>
-<summary><b>🔤 String Comparison (2 exercises)</b></summary>
+<summary><b>🔤 String Comparison & Search (4 exercises)</b></summary>
 
 | Exercise | Description | Methods | Concepts |
 |:---------|:------------|:-------:|:---------|
 | `ft_strcmp.c` | String comparison | 2 | Character-by-character comparison |
-| `ft_strcspn.c` | String span | 2 | Character search algorithm |
+| `ft_strcspn.c` | Complement span of charset | 2 | Character search in set |
+| `ft_strpbrk.c` | Locate character in string | 2 | Pointer to first match |
+| `ft_strspn.c` | Get span of charset | 1 | Count matching characters |
+
+</details>
+
+<details open>
+<summary><b>🔧 String Manipulation (2 exercises)</b></summary>
+
+| Exercise | Description | Methods | Concepts |
+|:---------|:------------|:-------:|:---------|
+| `ft_strrev.c` | Reverse string in-place | 1 | String reversal, pointers |
+| `ft_strdup.c` | Duplicate string | 1 | Memory allocation, string copy |
 
 </details>
 
@@ -42,12 +54,12 @@ Level 2 introduces more advanced data manipulation, complex string algorithms, a
 | Exercise | Description | Methods | Concepts |
 |:---------|:------------|:-------:|:---------|
 | `ft_atoi.c` | ASCII to integer | 2 | String to number conversion |
-| `do_op.c` | Do operation | 2 | Operator handling |
+| `do_op.c` | Calculator operations | 2 | Operator handling |
 
 </details>
 
 <details open>
-<summary><b>🪞 Character Manipulation (1 exercise)</b></summary>
+<summary><b>🪞 Character Transformation (1 exercise)</b></summary>
 
 | Exercise | Description | Methods | Concepts |
 |:---------|:------------|:-------:|:---------|
@@ -61,17 +73,18 @@ Level 2 introduces more advanced data manipulation, complex string algorithms, a
 
 ### Technical Skills
 - ✅ Advanced string comparison algorithms
+- ✅ String search and span functions
+- ✅ Dynamic memory allocation
 - ✅ Number parsing and conversion
 - ✅ Character transformation techniques
-- ✅ Operator handling and dispatch
-- ✅ Complex algorithm design
+- ✅ In-place string manipulation
 
 ### Problem-Solving
 - ✅ Efficient string processing
+- ✅ Memory management strategies
 - ✅ Numeric parsing logic
 - ✅ Multiple algorithm approaches
 - ✅ Edge case management
-- ✅ Performance optimization
 
 ---
 
@@ -85,7 +98,7 @@ gcc -Wall -Wextra -Werror exercise.c -o exercise
 
 ### Exercise Types
 
-**1. String Comparison Functions** (ft_strcmp, ft_strcspn)
+**1. String Comparison Functions** (ft_strcmp, ft_strcspn, ft_strpbrk, ft_strspn)
 
 ```bash
 gcc -Wall -Wextra -Werror ft_strcmp.c test_main.c -o test_strcmp
@@ -93,12 +106,26 @@ gcc -Wall -Wextra -Werror ft_strcmp.c test_main.c -o test_strcmp
 ```
 
 **Testing Tips:**
-- Test equal strings: `"hello"`, `"hello"` → 0
-- Test different strings: `"abc"`, `"abd"` → negative
-- Test empty strings: `""`, `""`
-- Test NULL termination
+- Test equal strings
+- Test different strings
+- Test empty strings
+- Test with special characters
+- Test NULL cases
 
-**2. Number Conversion** (ft_atoi)
+**2. String Manipulation** (ft_strrev, ft_strdup)
+
+```bash
+gcc -Wall -Wextra -Werror ft_strdup.c test_main.c -o test_strdup
+./test_strdup
+```
+
+**Testing Tips:**
+- `ft_strdup`: Test memory allocation, verify copy
+- `ft_strrev`: Test in-place reversal
+- Always free allocated memory
+- Test with empty strings
+
+**3. Number Conversion** (ft_atoi)
 
 ```bash
 gcc -Wall -Wextra -Werror ft_atoi.c test_main.c -o test_atoi
@@ -106,44 +133,38 @@ gcc -Wall -Wextra -Werror ft_atoi.c test_main.c -o test_atoi
 ```
 
 **Testing Tips:**
-- Test positive numbers: `"123"` → 123
-- Test negative numbers: `"-456"` → -456
-- Test with spaces: `"  789"` → 789
-- Test invalid input: `"abc"` → 0
+- Positive numbers: `"123"` → 123
+- Negative numbers: `"-456"` → -456
+- With spaces: `"  789"` → 789
+- Invalid input: `"abc"` → 0
 
-**3. Operator Functions** (do_op)
+**4. Operator Functions** (do_op)
 
 ```bash
 gcc -Wall -Wextra -Werror do_op.c -o do_op
 ./do_op 10 + 5
 # Output: 15
-
-./do_op 20 - 3
-# Output: 17
 ```
 
 **Testing Tips:**
 - Test all operators: +, -, *, /, %
-- Test edge cases: division by zero
-- Test with negative numbers
-- Test operator precedence
+- Division by zero handling
+- Negative numbers
+- Invalid operators
 
-**4. Character Transformation** (alpha_mirror)
+**5. Character Transformation** (alpha_mirror)
 
 ```bash
 gcc -Wall -Wextra -Werror alpha_mirror.c -o alpha_mirror
 ./alpha_mirror "abc"
 # Output: zyx
-
-./alpha_mirror "ABC"
-# Output: ZYX
 ```
 
 **Testing Tips:**
-- Test lowercase: `"abc"` → `"zyx"`
-- Test uppercase: `"ABC"` → `"ZYX"`
-- Test mixed: `"aB1"` → `"zY1"`
-- Test non-alphabetic: numbers, symbols
+- Lowercase: `"abc"` → `"zyx"`
+- Uppercase: `"ABC"` → `"ZYX"`
+- Mixed case and numbers
+- Non-alphabetic characters
 
 ---
 
@@ -151,56 +172,55 @@ gcc -Wall -Wextra -Werror alpha_mirror.c -o alpha_mirror
 
 ### String Comparison
 
-**Core Understanding:**
-- Compare strings character by character
-- Return 0 if equal, negative if first < second, positive if first > second
-- Stop at null terminator
-
-**Example:**
+**ft_strcmp:**
 ```c
 int ft_strcmp(char *s1, char *s2)
 {
     int i = 0;
-    
     while (s1[i] && s2[i] && s1[i] == s2[i])
         i++;
     return (s1[i] - s2[i]);
 }
 ```
 
-### Number Parsing (atoi)
+### String Search Functions
 
-**Essential Concepts:**
-- Skip whitespace
-- Handle optional sign
-- Convert digits to number
-- Stop at non-digit
+**ft_strcspn:** Length of initial segment not containing charset
+**ft_strpbrk:** Find first occurrence of any character from set
+**ft_strspn:** Length of initial segment containing only charset
 
-**Example:**
+### Memory Allocation
+
+**ft_strdup:**
 ```c
-int ft_atoi(char *str)
+char *ft_strdup(char *src)
 {
-    int num = 0;
-    int sign = 1;
+    char *dup;
+    int len = 0;
     
-    while (*str == ' ' || (*str >= 9 && *str <= 13))
-        str++;
-    if (*str == '-' || *str == '+')
-        if (*str++ == '-')
-            sign = -1;
-    while (*str >= '0' && *str <= '9')
-        num = num * 10 + (*str++ - '0');
-    return (num * sign);
+    while (src[len])
+        len++;
+    dup = malloc(len + 1);
+    if (!dup)
+        return (NULL);
+    // Copy and return
 }
 ```
 
+### Number Parsing
+
+**ft_atoi:**
+- Skip whitespace
+- Handle sign
+- Convert digits
+- Stop at non-digit
+
 ### Character Transformation
 
-**Key Points:**
-- Mirror: `a ↔ z`, `b ↔ y`, etc.
-- Preserve case: lowercase stays lowercase
-- Non-letters unchanged
+**alpha_mirror:**
+- Mirror: `a ↔ z`, `b ↔ y`
 - Formula: `'z' - (char - 'a')`
+- Preserve case and non-letters
 
 ---
 
@@ -210,11 +230,15 @@ int ft_atoi(char *str)
 |:---------|:----:|:-----:|:------|
 | ft_strcmp | O(n) | O(1) | Linear comparison |
 | ft_strcspn | O(n·m) | O(1) | n=str, m=charset |
+| ft_strpbrk | O(n·m) | O(1) | Search in set |
+| ft_strspn | O(n·m) | O(1) | Count matches |
+| ft_strrev | O(n) | O(1) | In-place reversal |
+| ft_strdup | O(n) | O(n) | Allocates new string |
 | ft_atoi | O(n) | O(1) | Single pass |
 | do_op | O(1) | O(1) | Constant operations |
 | alpha_mirror | O(n) | O(1) | Single pass |
 
-*n = string length*
+*n = string length, m = charset length*
 
 ---
 
@@ -232,13 +256,12 @@ int ft_atoi(char *str)
 
 ## 🎯 Multiple Solutions Philosophy
 
-**Why Multiple Methods (md_1, md_2, md_3, md_4)?**
+**Why Multiple Methods?**
 
 Each method demonstrates different approaches:
 - **Method 1:** Usually most straightforward
 - **Method 2:** Alternative logic or optimization
-- **Method 3:** Different perspective or technique
-- **Method 4:** Advanced or creative solution
+- **Method 3+:** Different perspectives
 
 **Benefits:**
 - Compare efficiency
@@ -260,13 +283,13 @@ After Level 2:
 ## 💡 Tips for Success
 
 ### Study Strategies
-1. **Understand the Algorithm**
-   - Read requirements carefully
-   - Plan your approach
-   - Consider edge cases
+1. **Understand Memory Management**
+   - malloc/free usage
+   - Avoid memory leaks
+   - Test with valgrind
 
 2. **Compare Implementations**
-   - Study all methods (md_1, md_2, etc.)
+   - Study all methods
    - Which is clearest?
    - Which is most efficient?
 
@@ -276,10 +299,10 @@ After Level 2:
    - Check error conditions
 
 ### Best Practices
-1. **Learn from Mistakes**
-   - Debug systematically
-   - Use printf/gdb
-   - Understand each error
+1. **Master String Functions**
+   - Understand standard library
+   - Recreate from scratch
+   - Compare your implementation
 
 2. **Optimize Code**
    - Measure performance
@@ -293,19 +316,13 @@ After Level 2:
 | Resource | Link |
 |:---------|:----:|
 | String Functions | [cppreference.com](https://en.cppreference.com/w/c/string/byte) |
-| Character Classes | [cppreference.com](https://en.cppreference.com/w/c/string/byte) |
+| Memory Management | [cppreference.com](https://en.cppreference.com/w/c/memory) |
 | Algorithm Analysis | [wikipedia.org](https://en.wikipedia.org/wiki/Algorithm) |
 | Number Parsing | [cppreference.com](https://en.cppreference.com/w/c/string/byte/atoi) |
 
 ---
 
-## 📄 Exercise Subjects
-
-All exercise requirements and specifications:
-
-📥 **[Download Level 2 Subjects (PDF)](level_2.pdf)** *(Coming soon - will be added upon completion)*
-
----
+<div align="center">
 
 ## Level 2 In Progress
 

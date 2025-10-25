@@ -1,41 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   md_2_ft_strcspn.c                                  :+:      :+:    :+:   */
+/*   ft_strspn.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
+/*   by: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/11 18:32:37 by said-boutayeb     #+#    #+#             */
-/*   Updated: 2025/10/13 17:11:38 by said-boutayeb    ###   ########.fr       */
+/*   created: 2025/10/13 19:50:57 by said-boutayeb     #+#    #+#             */
+/*   Updated: 2025/10/25 09:09:02 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 
-int	ft_strchr(const char *str, char c)
+size_t	ft_strchr(const char *str, char c)
 {
-	while (*str)
+	size_t	i;
+
+	i = 0;
+	while (str[i])
 	{
-		if (*str == c)
+		if (str[i] == c)
 			return (1);
-		str++;
+		i++;
 	}
-	if (*str == c)
-		return (1);
 	return (0);
 }
 
-size_t	ft_strcspn(const char *s, const char *reject)
+size_t  ft_strspn(const char *s, const char *accept)
 {
 	size_t	i;
 
 	i = 0;
 	while (s[i])
 	{
-		if (ft_strchr(reject, s[i]))
-			return (i);
-		else
+	
+		if (ft_strchr(accept, s[i]) == 1)
 			i++;
+		else
+			return (i);
 	}
 	return (i);
 }
@@ -43,7 +45,7 @@ size_t	ft_strcspn(const char *s, const char *reject)
 int	main(int ac, char *av[])
 {
 	if (ac != 3)
-		return (0);
-	printf("%zu\n", ft_strcspn(av[1], av[2]));
+		return (1);
+	printf("number is: %zu\n", ft_strspn(av[1], av[2]));
 }
 */

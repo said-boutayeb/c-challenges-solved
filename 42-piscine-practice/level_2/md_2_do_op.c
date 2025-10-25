@@ -6,7 +6,7 @@
 /*   By: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/10 19:46:57 by said-boutayeb     #+#    #+#             */
-/*   Updated: 2025/10/10 21:08:46 by said-boutayeb    ###   ########.fr       */
+/*   Updated: 2025/10/13 15:44:35 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,12 @@ int	ft_atoi(char *str)
 	while (str[i] == 32 || (str[i] >= 9 && str[i] <= 13))
 		i++;
 	sum = 1;
-	if (str[i] == '-')
+	if (str[i] == '-' || str[i] == '+')
 	{
-		sum = sum * (-1);
+		if (str[i] == '-')
+			sum = sum * (-1);
 		i++;
 	}
-	else if (str[i] == '+')
-		i++;
 	result = 0;
 	while (str[i] >= '0' && str[i] <= '9')
 	{

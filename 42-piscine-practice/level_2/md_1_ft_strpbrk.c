@@ -1,49 +1,47 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   md_2_ft_strcspn.c                                  :+:      :+:    :+:   */
+/*   md_1_ft_strpbrk.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: said-boutayeb <sboutaye@student.1337.ma>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/11 18:32:37 by said-boutayeb     #+#    #+#             */
-/*   Updated: 2025/10/13 17:11:38 by said-boutayeb    ###   ########.fr       */
+/*   Created: 2025/10/13 17:40:57 by said-boutayeb     #+#    #+#             */
+/*   Updated: 2025/10/13 17:47:18 by said-boutayeb    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //#include <stdio.h>
 
-int	ft_strchr(const char *str, char c)
+char	*ft_strpbrk(const char *s1, const char *s2)
 {
-	while (*str)
-	{
-		if (*str == c)
-			return (1);
-		str++;
-	}
-	if (*str == c)
-		return (1);
-	return (0);
-}
+	int	i;
+	int	j;
 
-size_t	ft_strcspn(const char *s, const char *reject)
-{
-	size_t	i;
-
+	if (s1 == NULL || s2 == NULL)
+		return (NULL);
 	i = 0;
-	while (s[i])
+	while (s1[i])
 	{
-		if (ft_strchr(reject, s[i]))
-			return (i);
-		else
-			i++;
+		j = 0;
+		while (s2[j])
+		{
+			if (s1[i] == s2[j])
+				return ((char *)(s1 + i));
+			j++;
+		}
+		i++;
 	}
-	return (i);
+	return (NULL);
 }
 /*
 int	main(int ac, char *av[])
 {
 	if (ac != 3)
-		return (0);
-	printf("%zu\n", ft_strcspn(av[1], av[2]));
+	{
+		printf("please enter 2 string!\n");
+		return (1);
+	}
+	printf("this is s1: %s\nthis is s2: %s\n-------------\n", av[1], av[2]);
+	printf("this is result: %s\n", ft_strpbrk(av[1], av[2]));
 }
 */
